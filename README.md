@@ -6,6 +6,8 @@ Generate distance tables via a local OSRM ( http://project-osrm.org/ ) server.
 Usage
 -----
 
+See COMPILING_OSRM for configuration of OSRM server, which is required to be running before launching the script.
+
 Input must be a csv in the format (first row is the header)
 
 ```
