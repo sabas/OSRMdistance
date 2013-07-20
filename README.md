@@ -6,7 +6,7 @@ Generate distance tables via a local OSRM ( http://project-osrm.org/ ) server.
 Usage
 -----
 
-See COMPILING_OSRM for configuration of OSRM server, which is required to be running before launching the script.
+See QUICKSTART.md for brief notes on compilation and configuration of OSRM server, which is required to be running before launching the script.
 
 Input must be a csv in the format (first row is the header)
 
@@ -28,11 +28,23 @@ Via browser accepts two GET parameters:
  * out: csv name for the output
  
 ```
-localhost/osrm.php?in=in.csv&out=out.csv
+localhost/osrmdistance.php?in=in.csv&out=out.csv
 ```
 
 Via command line, pass the input name as first argument and output name ad second.
 
 ```
-php osrm.php in.csv out.csv
+php osrmdistance.php in.csv out.csv
+```
+
+osrmsinglepoint.php accepts a third parameter, formed as a row of the input csv, and calculates distance between the node described by this third input and those in the csv source.
+
+```
+php osrmsinglepoint.php in.csv out.csv "node;lat;lon"
+```
+
+osrmnearest.php tries to transform the source csv to the nearest points in the routing graph.
+
+```
+php osrmnearest.php in.csv out.csv
 ```

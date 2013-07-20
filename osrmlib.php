@@ -34,6 +34,22 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 	return $results;
 }
 
+function nearest($lat,$lon)
+{
+	$request=file_get_contents("http://localhost:5000/nearest?loc=".$lat.",".$lon);
+	$json=json_decode($request, true);
+		if ($json["status"]!=0) 
+		{
+			$status=$json["status"];
+            return [$lat,$lon];
+		}
+		else
+		{
+			$status="OK";
+            return $json["mapped_coordinate"];
+		}
+}
+
 function csvRead($file)
 {
 	if (($handle = fopen($file, "r")) !== FALSE) {
