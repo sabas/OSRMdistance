@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Italy Regions Distance Table</title>
+        <link rel="stylesheet" type="text/css" href="../script/pivot.css">
+        <script type="text/javascript" src="../script/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="../script/jquery-ui-1.9.2.custom.min.js"></script>
+        <script type="text/javascript" src="../script/pivot.js"></script>
+        <style>
+        * {font-family: Verdana;}
+        body{width:80%;}
+		</style>
+    </head>
+    <body>
+<a href="https://github.com/sabas/OSRMdistance"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+	
+	<h1>Italy Regions Distance Table</h1>
+	<p>Distances calculated between administrative centers of each region, expressed in kilometers. To see the estimated time switch fields "Distance" and "Time" in the pivot table</p>
+	<p>Data: <a href="http://download.geofabrik.de/europe.html">Geofabrik extract</a> of </a>03/08/2013</p>
+	<p><a href="capoluoghiregione.csv">Source csv</a> and <a href="capoluoghidistance.csv">output csv</a>
+        <div id="output" style="margin: 30px;"></div>
+        <script type="text/javascript">
+            $(function(){
+                var derivers = $.pivotUtilities.derivers;
+
+                $.getJSON("capoluoghidistance.csv.json", function(mps) {
+                    $("#output").pivotUI(mps, {
+                        derivedAttributes: {
+                            "Distance": function(mp) {
+                                return mp["distance"] /1000;
+                            },
+                            "Time": function(mp) {
+                                return mp["time"] / 3600;
+                            }
+                        },
+						rows:["from","to"],	
+						//cols:["to"],
+						vals:["Distance", "Time"],
+						aggregatorName:["sum"]
+                    });
+                });
+             });
+        </script>
+
+
+
+    </body>
+</html>
