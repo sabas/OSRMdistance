@@ -3,6 +3,8 @@ OSRMdistance
 
 Generate distance tables via a local OSRM ( http://project-osrm.org/ ) server.
 
+Checkout demo results on http://sabas.github.io/OSRMdistance/
+
 Usage
 -----
 
