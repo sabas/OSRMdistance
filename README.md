@@ -48,3 +48,9 @@ osrmnearest.php tries to transform the source csv to the nearest points in the r
 ```
 php osrmnearest.php in.csv out.csv
 ```
+
+extractData.php takes an osm file and extracts the triples for each node in the file (for instance you can extract a set of nodes via overpass-turbo, load the query in JOSM and from there save the osm file)
+
+```
+php extractData.php in.osm out.csv
+```
