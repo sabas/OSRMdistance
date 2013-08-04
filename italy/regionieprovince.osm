@@ -1,0 +1,2227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <bounds minlat='0.0' minlon='0.0' maxlat='0.0' maxlon='0.0' origin='OpenStreetMap server' />
+  <bounds minlat='36.1733569' minlon='5.625' maxlat='47.2195681' maxlon='19.5117188' origin='http://overpass-api.de/api/xapi?' />
+  <node id='-42' timestamp='2013-05-02T21:31:35Z' visible='true' lat='42.350164' lon='13.391926'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='5756' />
+    <tag k='is_in' v='L&apos;Aquila, Abruzzo, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='L&apos;Aquila' />
+    <tag k='name:ar' v='لاكويلا' />
+    <tag k='name:eo' v='La-Aglo' />
+    <tag k='name:fa' v='لاکوئیلا' />
+    <tag k='name:ru' v='Л&apos;Акуила' />
+    <tag k='name:zh' v='拉奎拉' />
+    <tag k='place' v='town' />
+    <tag k='population' v='68503' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-40' timestamp='2013-05-02T21:31:34Z' visible='true' lat='38.9076353' lon='16.5960465'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='6653' />
+    <tag k='is_in' v='Catanzaro, Calabria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Catanzaro' />
+    <tag k='name:ru' v='Катандзаро' />
+    <tag k='name:scn' v='Catanzaru' />
+    <tag k='name:zh' v='卡坦扎罗' />
+    <tag k='place' v='town' />
+    <tag k='population' v='95251' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-38' timestamp='2013-05-02T21:31:35Z' visible='true' lat='40.644317' lon='15.808567'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='6417' />
+    <tag k='is_in' v='Potenza, Basilicata, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Potenza' />
+    <tag k='name:ar' v='بوتنسا' />
+    <tag k='name:fa' v='پوتنزا' />
+    <tag k='name:ru' v='Потенца' />
+    <tag k='name:zh' v='波坦察' />
+    <tag k='place' v='town' />
+    <tag k='population' v='69060' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-36' timestamp='2013-05-13T23:47:28Z' visible='true' lat='38.111051' lon='13.335745'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='6894' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Palermo' />
+    <tag k='name:ar' v='باليرمو' />
+    <tag k='name:es' v='Palermo' />
+    <tag k='name:fa' v='پالرمو' />
+    <tag k='name:fi' v='Palermo' />
+    <tag k='name:fr' v='Palerme' />
+    <tag k='name:he' v='פלרמו' />
+    <tag k='name:it' v='Palermo' />
+    <tag k='name:lt' v='Palermas' />
+    <tag k='name:pl' v='Palermo' />
+    <tag k='name:pt' v='Palermo' />
+    <tag k='name:ru' v='Палермо' />
+    <tag k='name:scn' v='Palermu' />
+    <tag k='name:uk' v='Палермо' />
+    <tag k='name:zh' v='巴勒莫' />
+    <tag k='place' v='city' />
+    <tag k='population' v='686722' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Palermo' />
+  </node>
+  <node id='-34' timestamp='2013-05-13T23:47:25Z' visible='true' lat='40.8506962' lon='14.2463172'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='5387' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Napoli, Campania, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Napoli' />
+    <tag k='name:af' v='Napels' />
+    <tag k='name:ar' v='نابولي' />
+    <tag k='name:ast' v='Nápoles' />
+    <tag k='name:cs' v='Neapol' />
+    <tag k='name:de' v='Neapel' />
+    <tag k='name:en' v='Naples' />
+    <tag k='name:es' v='Nápoles' />
+    <tag k='name:fa' v='ناپل' />
+    <tag k='name:fr' v='Naples' />
+    <tag k='name:he' v='נפולי' />
+    <tag k='name:hr' v='Napulj' />
+    <tag k='name:hu' v='Nápoly' />
+    <tag k='name:lt' v='Neapolis' />
+    <tag k='name:nap' v='Napule' />
+    <tag k='name:nl' v='Napels' />
+    <tag k='name:pl' v='Neapol' />
+    <tag k='name:pt' v='Nápoles' />
+    <tag k='name:ru' v='Неаполь' />
+    <tag k='name:sk' v='Neapol' />
+    <tag k='name:sl' v='Neapelj' />
+    <tag k='name:sv' v='Neapel' />
+    <tag k='name:uk' v='Неаполь' />
+    <tag k='name:zh' v='那不勒斯' />
+    <tag k='place' v='city' />
+    <tag k='population' v='1004500' />
+    <tag k='rank' v='10' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='en:Naples' />
+  </node>
+  <node id='-32' timestamp='2013-05-02T21:31:03Z' visible='true' lat='41.560027' lon='14.66753'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='6018' />
+    <tag k='is_in' v='Campobasso, Molise, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Campobasso' />
+    <tag k='name:ar' v='كامبوباسو' />
+    <tag k='name:fa' v='کامپوباسو' />
+    <tag k='name:ru' v='Кампобассо' />
+    <tag k='name:zh' v='坎波巴索' />
+    <tag k='place' v='town' />
+    <tag k='population' v='50762' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-30' timestamp='2013-05-14T00:13:38Z' visible='true' lat='46.0664228' lon='11.1257601'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='3069' />
+    <tag k='is_in' v='Trento, Trentino-Alto Adige, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Trento' />
+    <tag k='name:de' v='Trient' />
+    <tag k='name:fr' v='Trente' />
+    <tag k='name:lt' v='Trentas' />
+    <tag k='name:pl' v='Trydent' />
+    <tag k='name:ru' v='Тренто' />
+    <tag k='name:zh' v='特伦托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='104946' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Trento' />
+  </node>
+  <node id='-28' timestamp='2013-06-15T12:52:40Z' visible='true' lat='44.40726' lon='8.9338624'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='1282' />
+    <tag k='is_in' v='Genova, Liguria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Genova' />
+    <tag k='name:ar' v='جنوة' />
+    <tag k='name:ast' v='Xénova' />
+    <tag k='name:de' v='Genua' />
+    <tag k='name:en' v='Genoa' />
+    <tag k='name:es' v='Génova' />
+    <tag k='name:fa' v='جنوا' />
+    <tag k='name:fr' v='Gênes' />
+    <tag k='name:it' v='Genova' />
+    <tag k='name:lij' v='Zena' />
+    <tag k='name:pl' v='Genua' />
+    <tag k='name:pt' v='Génova' />
+    <tag k='name:ru' v='Генуя' />
+    <tag k='name:sl' v='Genova' />
+    <tag k='name:zh' v='热那亚' />
+    <tag k='place' v='city' />
+    <tag k='population' v='610307' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Genova' />
+  </node>
+  <node id='-26' timestamp='2012-12-02T21:31:10Z' visible='true' lat='44.4936714' lon='11.3430347'>
+    <tag k='capital' v='4' />
+    <tag k='is_in' v='Bologna;Emilia Romagna;Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Bologna' />
+    <tag k='name:ar' v='بولونيا' />
+    <tag k='name:ast' v='Boloña' />
+    <tag k='name:be' v='Балонья' />
+    <tag k='name:es' v='Bolonia' />
+    <tag k='name:fa' v='بولونیا' />
+    <tag k='name:fr' v='Bologne' />
+    <tag k='name:ru' v='Болонья' />
+    <tag k='name:sr' v='Болоња.' />
+    <tag k='name:zh' v='博洛尼亚' />
+    <tag k='place' v='city' />
+    <tag k='population' v='371217' />
+    <tag k='rank' v='20' />
+    <tag k='wikipedia' v='it:Bologna' />
+  </node>
+  <node id='-24' action='modify' timestamp='2013-05-14T00:13:19Z' visible='true' lat='43.767838162146845' lon='11.254954138011902'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='4495' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='int_name' v='Florence' />
+    <tag k='is_in' v='Firenze, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Firenze' />
+    <tag k='name:ar' v='فلورنسا' />
+    <tag k='name:cs' v='Florencie' />
+    <tag k='name:de' v='Florenz' />
+    <tag k='name:en' v='Florence' />
+    <tag k='name:es' v='Florencia' />
+    <tag k='name:fa' v='فلورانس' />
+    <tag k='name:fr' v='Florence' />
+    <tag k='name:he' v='פירנצה' />
+    <tag k='name:it' v='Firenze' />
+    <tag k='name:lb' v='Florenz' />
+    <tag k='name:lt' v='Florencija' />
+    <tag k='name:pl' v='Florencja' />
+    <tag k='name:pt' v='Florença' />
+    <tag k='name:ru' v='Флоренция' />
+    <tag k='name:sk' v='Florencia' />
+    <tag k='name:sl' v='Firence' />
+    <tag k='name:tt' v='Флоренция' />
+    <tag k='name:zh' v='佛罗伦萨' />
+    <tag k='old_name' v='Florentia' />
+    <tag k='place' v='city' />
+    <tag k='population' v='356118' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='en:Florence' />
+  </node>
+  <node id='-22' timestamp='2013-05-13T23:47:41Z' visible='true' lat='45.4384143' lon='12.318564'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='3515' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Venezia, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Venezia' />
+    <tag k='name:ar' v='البندقية' />
+    <tag k='name:ast' v='Venecia' />
+    <tag k='name:cs' v='Benátky' />
+    <tag k='name:cy' v='Fenis' />
+    <tag k='name:da' v='Venedig' />
+    <tag k='name:de' v='Venedig' />
+    <tag k='name:en' v='Venice' />
+    <tag k='name:es' v='Venecia' />
+    <tag k='name:fa' v='ونیز' />
+    <tag k='name:fi' v='Venetsia' />
+    <tag k='name:fr' v='Venise' />
+    <tag k='name:fur' v='Vignesie' />
+    <tag k='name:he' v='ונציה' />
+    <tag k='name:hr' v='Venecija' />
+    <tag k='name:hu' v='Velence' />
+    <tag k='name:lb' v='Venedeg' />
+    <tag k='name:lt' v='Venecija' />
+    <tag k='name:pl' v='Wenecja' />
+    <tag k='name:pt' v='Veneza' />
+    <tag k='name:ro' v='Veneţia' />
+    <tag k='name:ru' v='Венеция' />
+    <tag k='name:sk' v='Benátky' />
+    <tag k='name:sl' v='Benetke' />
+    <tag k='name:sr' v='Венеција' />
+    <tag k='name:sv' v='Venedig' />
+    <tag k='name:tt' v='Венеция' />
+    <tag k='name:uk' v='Венеція' />
+    <tag k='name:ve' v='Venesia' />
+    <tag k='name:vec' v='Venesia' />
+    <tag k='name:vi' v='Vơ-ni-dơ' />
+    <tag k='name:zh' v='威尼斯' />
+    <tag k='place' v='city' />
+    <tag k='population' v='271073' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Venezia' />
+  </node>
+  <node id='-20' timestamp='2012-12-03T12:56:42Z' visible='true' lat='45.0709201' lon='7.685972'>
+    <tag k='capital' v='4' />
+    <tag k='ele' v='239' />
+    <tag k='gfoss_id' v='272' />
+    <tag k='is_in' v='Torino, Piemonte, Italia' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Torino' />
+    <tag k='name:ar' v='تورينو' />
+    <tag k='name:cs' v='Turín' />
+    <tag k='name:de' v='Turin' />
+    <tag k='name:en' v='Turin' />
+    <tag k='name:es' v='Turín' />
+    <tag k='name:fa' v='تورین' />
+    <tag k='name:fi' v='Torino' />
+    <tag k='name:fr' v='Turin' />
+    <tag k='name:fur' v='Turin' />
+    <tag k='name:it' v='Torino' />
+    <tag k='name:lb' v='Turin' />
+    <tag k='name:pl' v='Turyn' />
+    <tag k='name:pt' v='Turim' />
+    <tag k='name:ru' v='Турин' />
+    <tag k='name:sk' v='Turín' />
+    <tag k='name:sl' v='Turin' />
+    <tag k='name:zh' v='都灵' />
+    <tag k='place' v='city' />
+    <tag k='population' v='865263' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='website' v='http://www.comune.torino.it' />
+    <tag k='wikipedia' v='it:Torino' />
+  </node>
+  <node id='-18' timestamp='2013-05-13T23:47:40Z' visible='true' lat='45.6300555' lon='13.7879014'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='3839' />
+    <tag k='int_name' v='Triest' />
+    <tag k='is_in' v='Trieste, Friuli-Venezia Giulia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Trieste' />
+    <tag k='name:cs' v='Terst' />
+    <tag k='name:de' v='Triest' />
+    <tag k='name:en' v='Triest' />
+    <tag k='name:fur' v='Triest' />
+    <tag k='name:hr' v='Trst' />
+    <tag k='name:hu' v='Trieszt' />
+    <tag k='name:la' v='Tergeste' />
+    <tag k='name:lt' v='Triestas' />
+    <tag k='name:pl' v='Triest' />
+    <tag k='name:ru' v='Триест' />
+    <tag k='name:sk' v='Terst' />
+    <tag k='name:sl' v='Trst' />
+    <tag k='name:sr' v='Трст' />
+    <tag k='name:uk' v='Трієст' />
+    <tag k='name:zh' v='的里雅斯特' />
+    <tag k='place' v='city' />
+    <tag k='population' v='211184' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Trieste' />
+  </node>
+  <node id='-16' timestamp='2012-12-02T15:30:03Z' visible='true' lat='41.1256631' lon='16.8619381'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='6166' />
+    <tag k='is_in' v='Bari, Puglia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Bari' />
+    <tag k='name:ar' v='باري' />
+    <tag k='name:fa' v='باری' />
+    <tag k='name:ru' v='Бари' />
+    <tag k='name:sr' v='Бари' />
+    <tag k='name:zh' v='巴里' />
+    <tag k='place' v='city' />
+    <tag k='population' v='316532' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-14' timestamp='2013-04-03T11:09:12Z' visible='true' lat='39.2225376' lon='9.1169358'>
+    <tag k='alt_name' v='Casteddu' />
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='7406' />
+    <tag k='name' v='Cagliari' />
+    <tag k='name:ar' v='كالياري' />
+    <tag k='name:fa' v='کالیاری' />
+    <tag k='name:ru' v='Кальяри' />
+    <tag k='name:sc' v='Casteddu' />
+    <tag k='name:zh' v='卡利亚里' />
+    <tag k='place' v='city' />
+    <tag k='population' v='164249' />
+    <tag k='ref:LOCODE' v='ITCAG' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='-12' action='modify' timestamp='2013-04-23T09:05:11Z' visible='true' lat='41.89372614514565' lon='12.481829358471481'>
+    <tag k='admin_level' v='2' />
+    <tag k='alt_name:vi' v='La Mã' />
+    <tag k='capital' v='yes' />
+    <tag k='gfoss_id' v='5002' />
+    <tag k='is_capital' v='country' />
+    <tag k='is_in' v='Roma,Lazio,Italy,Europe' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Roma' />
+    <tag k='name:ace' v='Roma' />
+    <tag k='name:af' v='Rome' />
+    <tag k='name:am' v='ሮማ' />
+    <tag k='name:an' v='Roma' />
+    <tag k='name:ang' v='Rōm' />
+    <tag k='name:ar' v='روما' />
+    <tag k='name:arc' v='ܪܗܘܡܐ' />
+    <tag k='name:arz' v='روما' />
+    <tag k='name:ast' v='Roma' />
+    <tag k='name:ay' v='Roma' />
+    <tag k='name:az' v='Roma' />
+    <tag k='name:ba' v='Рим' />
+    <tag k='name:bat-smg' v='Ruoma' />
+    <tag k='name:bcl' v='Roma' />
+    <tag k='name:be' v='Рым' />
+    <tag k='name:be-x-old' v='Рым' />
+    <tag k='name:bg' v='Рим' />
+    <tag k='name:bi' v='Rome' />
+    <tag k='name:bn' v='রোম' />
+    <tag k='name:bo' v='རོ་མ།' />
+    <tag k='name:br' v='Roma' />
+    <tag k='name:bs' v='Rim' />
+    <tag k='name:ca' v='Roma' />
+    <tag k='name:cbk-zam' v='Roma' />
+    <tag k='name:ceb' v='Roma' />
+    <tag k='name:chy' v='Roma' />
+    <tag k='name:ckb' v='ڕۆما' />
+    <tag k='name:co' v='Roma' />
+    <tag k='name:cr' v='ᖌᒪ' />
+    <tag k='name:crh' v='Roma' />
+    <tag k='name:cs' v='Řím' />
+    <tag k='name:csb' v='Rzim' />
+    <tag k='name:cu' v='Римъ' />
+    <tag k='name:cv' v='Рим' />
+    <tag k='name:cy' v='Rhufain' />
+    <tag k='name:da' v='Rom' />
+    <tag k='name:de' v='Rom' />
+    <tag k='name:diq' v='Roma' />
+    <tag k='name:ee' v='Rome' />
+    <tag k='name:el' v='Ρώμη' />
+    <tag k='name:eml' v='Råmma' />
+    <tag k='name:en' v='Rome' />
+    <tag k='name:eo' v='Romo' />
+    <tag k='name:es' v='Roma' />
+    <tag k='name:et' v='Rooma' />
+    <tag k='name:eu' v='Erroma' />
+    <tag k='name:ext' v='Roma' />
+    <tag k='name:fa' v='رم' />
+    <tag k='name:fi' v='Rooma' />
+    <tag k='name:fiu-vro' v='Rooma' />
+    <tag k='name:fo' v='Róm' />
+    <tag k='name:fr' v='Rome' />
+    <tag k='name:frp' v='Roma' />
+    <tag k='name:fur' v='Rome' />
+    <tag k='name:fy' v='Rome' />
+    <tag k='name:ga' v='An Róimh' />
+    <tag k='name:gag' v='Roma' />
+    <tag k='name:gan' v='羅馬' />
+    <tag k='name:gd' v='An Ròimh' />
+    <tag k='name:gl' v='Roma' />
+    <tag k='name:gn' v='Róma' />
+    <tag k='name:gv' v='Yn Raue' />
+    <tag k='name:he' v='רומא' />
+    <tag k='name:hi' v='रोम' />
+    <tag k='name:hif' v='Rome' />
+    <tag k='name:hr' v='Rim' />
+    <tag k='name:ht' v='Ròm' />
+    <tag k='name:hu' v='Róma' />
+    <tag k='name:hy' v='Հռոմ' />
+    <tag k='name:ia' v='Roma' />
+    <tag k='name:id' v='Roma' />
+    <tag k='name:ie' v='Roma' />
+    <tag k='name:ilo' v='Roma' />
+    <tag k='name:io' v='Roma' />
+    <tag k='name:is' v='Róm' />
+    <tag k='name:it' v='Roma' />
+    <tag k='name:ja' v='ローマ' />
+    <tag k='name:jbo' v='romas' />
+    <tag k='name:jv' v='Roma' />
+    <tag k='name:ka' v='რომი' />
+    <tag k='name:kaa' v='Rome' />
+    <tag k='name:kk' v='Рим' />
+    <tag k='name:kl' v='Roma' />
+    <tag k='name:kn' v='ರೋಮ್' />
+    <tag k='name:ko' v='로마' />
+    <tag k='name:krc' v='Рим' />
+    <tag k='name:ku' v='Roma' />
+    <tag k='name:kv' v='Рим' />
+    <tag k='name:la' v='Roma' />
+    <tag k='name:lad' v='Roma' />
+    <tag k='name:lb' v='Roum' />
+    <tag k='name:lez' v='Рим' />
+    <tag k='name:li' v='Roeme' />
+    <tag k='name:lij' v='Romma' />
+    <tag k='name:lmo' v='Roma' />
+    <tag k='name:ln' v='Roma' />
+    <tag k='name:lt' v='Roma' />
+    <tag k='name:lv' v='Roma' />
+    <tag k='name:mdf' v='Рим' />
+    <tag k='name:mg' v='Roma' />
+    <tag k='name:mhr' v='Рим' />
+    <tag k='name:mi' v='Rōma' />
+    <tag k='name:mk' v='Рим' />
+    <tag k='name:ml' v='റോം' />
+    <tag k='name:mn' v='Ром' />
+    <tag k='name:mr' v='रोम' />
+    <tag k='name:mt' v='Ruma' />
+    <tag k='name:mwl' v='Roma' />
+    <tag k='name:my' v='ရောမမြို့' />
+    <tag k='name:na' v='Roma' />
+    <tag k='name:nah' v='Roma' />
+    <tag k='name:nap' v='Romma' />
+    <tag k='name:nds-nl' v='Rome' />
+    <tag k='name:ne' v='रोम' />
+    <tag k='name:nl' v='Rome' />
+    <tag k='name:nn' v='Roma' />
+    <tag k='name:no' v='Roma' />
+    <tag k='name:nov' v='Roma' />
+    <tag k='name:nrm' v='Rome' />
+    <tag k='name:oc' v='Roma' />
+    <tag k='name:os' v='Ром' />
+    <tag k='name:pap' v='Roma' />
+    <tag k='name:pcd' v='Rome' />
+    <tag k='name:pl' v='Rzym' />
+    <tag k='name:pms' v='Roma' />
+    <tag k='name:pnb' v='روم' />
+    <tag k='name:pnt' v='Ρώμη' />
+    <tag k='name:pt' v='Roma' />
+    <tag k='name:qu' v='Roma' />
+    <tag k='name:rm' v='Roma' />
+    <tag k='name:rn' v='Roma' />
+    <tag k='name:ro' v='Roma' />
+    <tag k='name:roa-rup' v='Roma' />
+    <tag k='name:roa-tara' v='Rome' />
+    <tag k='name:ru' v='Рим' />
+    <tag k='name:rue' v='Рим' />
+    <tag k='name:rw' v='Roma' />
+    <tag k='name:sa' v='रोमा' />
+    <tag k='name:sah' v='Ром' />
+    <tag k='name:sc' v='Roma' />
+    <tag k='name:scn' v='Roma' />
+    <tag k='name:sco' v='Roum' />
+    <tag k='name:se' v='Roma' />
+    <tag k='name:sg' v='Rome' />
+    <tag k='name:sh' v='Rim' />
+    <tag k='name:si' v='රෝමය' />
+    <tag k='name:simple' v='Rome' />
+    <tag k='name:sk' v='Rím' />
+    <tag k='name:sl' v='Rim' />
+    <tag k='name:so' v='Roma' />
+    <tag k='name:sq' v='Roma' />
+    <tag k='name:sr' v='Рим' />
+    <tag k='name:stq' v='Room' />
+    <tag k='name:su' v='Roma' />
+    <tag k='name:sv' v='Rom' />
+    <tag k='name:sw' v='Roma' />
+    <tag k='name:szl' v='Rzim' />
+    <tag k='name:ta' v='உரோமை நகரம்' />
+    <tag k='name:te' v='రోమ్' />
+    <tag k='name:tg' v='Рим' />
+    <tag k='name:th' v='โรม' />
+    <tag k='name:tk' v='Rim' />
+    <tag k='name:tl' v='Roma' />
+    <tag k='name:tr' v='Roma' />
+    <tag k='name:tt' v='Рим' />
+    <tag k='name:ty' v='Roma' />
+    <tag k='name:udm' v='Рим' />
+    <tag k='name:ug' v='Rim' />
+    <tag k='name:uk' v='Рим' />
+    <tag k='name:ur' v='روم' />
+    <tag k='name:uz' v='Rim' />
+    <tag k='name:vec' v='Roma' />
+    <tag k='name:vep' v='Rim' />
+    <tag k='name:vi' v='Rô-ma' />
+    <tag k='name:vls' v='Rome' />
+    <tag k='name:vo' v='Roma' />
+    <tag k='name:war' v='Roma' />
+    <tag k='name:wuu' v='罗马' />
+    <tag k='name:xmf' v='რომი' />
+    <tag k='name:yi' v='רוים' />
+    <tag k='name:yo' v='Rómù' />
+    <tag k='name:zh' v='罗马' />
+    <tag k='name:zh-classical' v='羅馬' />
+    <tag k='name:zh-min-nan' v='Lô-má' />
+    <tag k='name:zh-yue' v='羅馬' />
+    <tag k='name:zh_pinyin' v='Luómǎ' />
+    <tag k='place' v='city' />
+    <tag k='population' v='2796102' />
+    <tag k='rank' v='0' />
+    <tag k='source:population' v='30.06.2011, http://www.demo.istat.it/bilmens2011gen/query.php?lingua=ita&amp;Rip=S3&amp;Reg=R12&amp;Pro=P058&amp;Com=91&amp;submit=Tavola' />
+    <tag k='website' v='http://www.comune.roma.it/' />
+    <tag k='wikipedia' v='it:Roma' />
+  </node>
+  <node id='-10' timestamp='2013-05-02T12:29:30Z' visible='true' lat='45.466797' lon='9.1905368'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='1844' />
+    <tag k='is_in' v='Milano, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='loc_name' v='Milán' />
+    <tag k='name' v='Milano' />
+    <tag k='name:ar' v='ميلانو' />
+    <tag k='name:ca' v='Milà' />
+    <tag k='name:cs' v='Milán' />
+    <tag k='name:de' v='Mailand' />
+    <tag k='name:en' v='Milan' />
+    <tag k='name:es' v='Milán' />
+    <tag k='name:fa' v='میلان' />
+    <tag k='name:fi' v='Milano' />
+    <tag k='name:fr' v='Milan' />
+    <tag k='name:fur' v='Milan' />
+    <tag k='name:he' v='מילנו' />
+    <tag k='name:hu' v='Milánó' />
+    <tag k='name:it' v='Milano' />
+    <tag k='name:la' v='Mediolanum' />
+    <tag k='name:lb' v='Mailand' />
+    <tag k='name:nl' v='Milaan' />
+    <tag k='name:pl' v='Mediolan' />
+    <tag k='name:pt' v='Milão' />
+    <tag k='name:ru' v='Милан' />
+    <tag k='name:sk' v='Miláno' />
+    <tag k='name:sl' v='Milan' />
+    <tag k='name:sr' v='Милан' />
+    <tag k='name:za' v='Milaan' />
+    <tag k='name:zh' v='米蘭' />
+    <tag k='place' v='city' />
+    <tag k='population' v='1345890' />
+    <tag k='rank' v='1' />
+    <tag k='ref:ISTAT' v='015146' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Milano' />
+  </node>
+  <node id='-8' timestamp='2013-05-21T21:55:43Z' visible='true' lat='43.6170137' lon='13.5170982'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='4229' />
+    <tag k='is_in' v='Ancona, Marche, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Ancona' />
+    <tag k='name:ar' v='أنكونا' />
+    <tag k='name:fa' v='آنکونا' />
+    <tag k='name:fr' v='Ancône' />
+    <tag k='name:he' v='אנקונה' />
+    <tag k='name:it' v='Ancona' />
+    <tag k='name:pl' v='Ankona' />
+    <tag k='name:ru' v='Анкона' />
+    <tag k='name:sr' v='Анкона' />
+    <tag k='name:zh' v='安科纳' />
+    <tag k='place' v='city' />
+    <tag k='population' v='100507' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Ancona' />
+  </node>
+  <node id='-6' timestamp='2013-05-02T21:31:02Z' visible='true' lat='45.7343472' lon='7.3088547'>
+    <tag k='capital' v='4' />
+    <tag k='is_in' v='Aosta,Valle d&apos;Aosta,Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Aosta' />
+    <tag k='name:ar' v='أوستا' />
+    <tag k='name:fa' v='ائوستا' />
+    <tag k='name:fr' v='Aoste' />
+    <tag k='name:it' v='Aosta' />
+    <tag k='name:ru' v='Аоста' />
+    <tag k='name:zh' v='奥斯塔' />
+    <tag k='place' v='town' />
+    <tag k='population' v='34631' />
+    <tag k='postal_code' v='11100' />
+    <tag k='ref:ISTAT' v='007003' />
+    <tag k='wikipedia' v='it:Aosta' />
+  </node>
+  <node id='-4' timestamp='2013-05-14T12:57:32Z' visible='true' lat='43.1119613' lon='12.3890104'>
+    <tag k='capital' v='4' />
+    <tag k='gfoss_id' v='4725' />
+    <tag k='is_in' v='Perugia, Umbria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Perugia' />
+    <tag k='name:ar' v='بيروجيا' />
+    <tag k='name:fa' v='پروجا' />
+    <tag k='name:fr' v='Pérouse' />
+    <tag k='name:lt' v='Perudža' />
+    <tag k='name:pt' v='Perúgia' />
+    <tag k='name:ru' v='Перуджа' />
+    <tag k='name:zh' v='翁布里亚' />
+    <tag k='place' v='city' />
+    <tag k='population' v='149125' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Perugia' />
+  </node>
+  <node id='61753362' timestamp='2012-12-02T15:30:02Z' uid='604999' user='White_Rabbit' visible='true' version='9' changeset='14126174' lat='43.4626463' lon='11.8777798'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4585' />
+    <tag k='is_in' v='Arezzo, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Arezzo' />
+    <tag k='name:ru' v='Ареццо' />
+    <tag k='name:zh' v='阿雷佐' />
+    <tag k='place' v='city' />
+    <tag k='population' v='91589' />
+    <tag k='rank' v='30' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='61753364' timestamp='2012-12-02T17:42:03Z' uid='604999' user='White_Rabbit' visible='true' version='9' changeset='14128245' lat='42.7597261' lon='11.1137389'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4669' />
+    <tag k='is_in' v='Grosseto, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Grosseto' />
+    <tag k='name:ru' v='Гроссето' />
+    <tag k='name:zh' v='格罗塞托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='71263' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='61753368' timestamp='2012-12-02T17:42:05Z' uid='604999' user='White_Rabbit' visible='true' version='10' changeset='14128245' lat='44.0366034' lon='10.1409467'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4416' />
+    <tag k='is_in' v='Massa-Carrara, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Massa' />
+    <tag k='name:ru' v='Масса' />
+    <tag k='name:zh' v='马萨' />
+    <tag k='place' v='city' />
+    <tag k='population' v='66769' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='61753370' action='modify' timestamp='2013-07-04T22:15:01Z' uid='482753' user='lorenzoguidotti' visible='true' version='9' changeset='16828892' lat='43.93335446538366' lon='10.919250391640139'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4472' />
+    <tag k='is_in' v='Pistoia, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Pistoia' />
+    <tag k='name:ru' v='Пистойя' />
+    <tag k='name:zh' v='皮斯托亞' />
+    <tag k='place' v='city' />
+    <tag k='population' v='84274' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='61753372' timestamp='2012-12-03T12:56:37Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14138223' lat='43.880598' lon='11.0969262'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7945' />
+    <tag k='is_in' v='Prato, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Prato' />
+    <tag k='name:IT' v='Prato' />
+    <tag k='name:ru' v='Прато' />
+    <tag k='name:zh' v='普拉托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='172499' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='61753373' timestamp='2013-05-15T13:00:15Z' uid='461682' user='Griphon' visible='true' version='13' changeset='16138856' lat='43.3185536' lon='11.3316533'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4654' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Siena, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Siena' />
+    <tag k='name:fr' v='Sienne' />
+    <tag k='name:ru' v='Сиена' />
+    <tag k='name:sr' v='Сиена' />
+    <tag k='name:zh' v='锡耶纳' />
+    <tag k='place' v='city' />
+    <tag k='population' v='52625' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Siena' />
+  </node>
+  <node id='62505590' action='modify' timestamp='2013-07-15T14:04:43Z' uid='382012' user='Baliano' visible='true' version='15' changeset='16962800' lat='45.53888143549892' lon='10.218326083422513'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='2199' />
+    <tag k='is_in' v='Brescia, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Brescia' />
+    <tag k='name:it' v='Brescia' />
+    <tag k='name:ru' v='Бреша' />
+    <tag k='name:zh' v='布雷西亚' />
+    <tag k='old_name:de' v='Welsch-Brixen' />
+    <tag k='place' v='city' />
+    <tag k='population' v='187567' />
+    <tag k='ref:ISTAT' v='017029' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Brescia' />
+  </node>
+  <node id='62505592' timestamp='2013-05-14T00:13:17Z' uid='1241595' user='Runis' visible='true' version='18' changeset='16118753' lat='45.8106805' lon='9.0863028'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1550' />
+    <tag k='is_in' v='Como, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Como' />
+    <tag k='name:fr' v='Côme' />
+    <tag k='name:it' v='Como' />
+    <tag k='name:lt' v='Komas' />
+    <tag k='name:ru' v='Комо' />
+    <tag k='name:zh' v='科莫' />
+    <tag k='place' v='town' />
+    <tag k='population' v='78680' />
+    <tag k='ref:ISTAT' v='013075' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Como' />
+  </node>
+  <node id='62505595' action='modify' timestamp='2013-05-02T12:29:29Z' uid='90780' user='Verdy_p' visible='true' version='16' changeset='15945673' lat='45.13462340065969' lon='10.023089241449876'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='2602' />
+    <tag k='is_in' v='Cremona, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Cremona' />
+    <tag k='name:fr' v='Crémone' />
+    <tag k='name:he' v='קרמונה' />
+    <tag k='name:it' v='Cremona' />
+    <tag k='name:ru' v='Кремона' />
+    <tag k='name:zh' v='克雷莫納' />
+    <tag k='place' v='town' />
+    <tag k='population' v='70887' />
+    <tag k='postal_code' v='26100' />
+    <tag k='ref:ISTAT' v='019036' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Cremona' />
+  </node>
+  <node id='62505597' timestamp='2013-05-02T12:29:30Z' uid='90780' user='Verdy_p' visible='true' version='8' changeset='15945673' lat='45.855682' lon='9.402845'>
+    <tag k='addr:postcode' v='23900' />
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7811' />
+    <tag k='is_in' v='Lecco, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Lecco' />
+    <tag k='name:fr' v='Lecco' />
+    <tag k='name:it' v='Lecco' />
+    <tag k='name:zh' v='萊科' />
+    <tag k='place' v='town' />
+    <tag k='population' v='45501' />
+    <tag k='ref:ISTAT' v='097042' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Lecco' />
+  </node>
+  <node id='62505605' timestamp='2013-05-02T12:29:30Z' uid='90780' user='Verdy_p' visible='true' version='10' changeset='15945673' lat='45.3138233' lon='9.5024266'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7890' />
+    <tag k='is_in' v='Lodi, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Lodi' />
+    <tag k='name:fr' v='Lodi' />
+    <tag k='name:it' v='Lodi' />
+    <tag k='name:ru' v='Лоди' />
+    <tag k='name:zh' v='洛迪' />
+    <tag k='place' v='town' />
+    <tag k='population' v='40805' />
+    <tag k='ref:ISTAT' v='098031' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Lodi' />
+  </node>
+  <node id='62505610' timestamp='2013-05-02T12:29:30Z' uid='90780' user='Verdy_p' visible='true' version='20' changeset='15945673' lat='45.1613638' lon='10.799208'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='2711' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Mantova, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Mantova' />
+    <tag k='name:ar' v='مانتوفا' />
+    <tag k='name:de' v='Mantua' />
+    <tag k='name:en' v='Mantua' />
+    <tag k='name:es' v='Mantua' />
+    <tag k='name:fr' v='Mantoue' />
+    <tag k='name:it' v='Mantova' />
+    <tag k='name:la' v='Mantua' />
+    <tag k='name:nl' v='Mantua' />
+    <tag k='name:pl' v='Mantua' />
+    <tag k='name:ru' v='Мантуя' />
+    <tag k='name:vec' v='Màntoa' />
+    <tag k='name:zh' v='曼托瓦' />
+    <tag k='place' v='town' />
+    <tag k='population' v='47790' />
+    <tag k='ref:ISTAT' v='020030' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Mantova' />
+  </node>
+  <node id='62505612' timestamp='2013-05-02T12:29:31Z' uid='90780' user='Verdy_p' visible='true' version='20' changeset='15945673' lat='45.1860043' lon='9.1546375'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='2486' />
+    <tag k='is_in' v='Pavia, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Pavia' />
+    <tag k='name:ast' v='Pavía' />
+    <tag k='name:es' v='Pavía' />
+    <tag k='name:fr' v='Pavie' />
+    <tag k='name:he' v='פאביה' />
+    <tag k='name:it' v='Pavia' />
+    <tag k='name:pl' v='Pawia' />
+    <tag k='name:ru' v='Павия' />
+    <tag k='name:zh' v='帕維亞' />
+    <tag k='old_name' v='Ticinum' />
+    <tag k='place' v='town' />
+    <tag k='population' v='71214' />
+    <tag k='ref:ISTAT' v='018110' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Pavia' />
+  </node>
+  <node id='62505616' timestamp='2013-05-02T12:29:31Z' uid='90780' user='Verdy_p' visible='true' version='9' changeset='15945673' lat='46.1709447' lon='9.8767107'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1720' />
+    <tag k='is_in' v='Sondrio, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Sondrio' />
+    <tag k='name:fr' v='Sondrio' />
+    <tag k='name:it' v='Sondrio' />
+    <tag k='name:ru' v='Сондрио' />
+    <tag k='name:zh' v='桑治奧' />
+    <tag k='place' v='town' />
+    <tag k='population' v='21642' />
+    <tag k='ref:ISTAT' v='014061' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Sondrio' />
+  </node>
+  <node id='62505628' timestamp='2013-05-14T00:13:39Z' uid='1241595' user='Runis' visible='true' version='15' changeset='16118753' lat='45.8183902' lon='8.823913'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1489' />
+    <tag k='is_in' v='Varese, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Varese' />
+    <tag k='name:fr' v='Varèse' />
+    <tag k='name:it' v='Varese' />
+    <tag k='name:lt' v='Varezė' />
+    <tag k='name:ru' v='Варезе' />
+    <tag k='name:zh' v='瓦雷澤' />
+    <tag k='place' v='town' />
+    <tag k='population' v='80511' />
+    <tag k='ref:ISTAT' v='012133' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Varese' />
+  </node>
+  <node id='62515124' timestamp='2013-07-14T17:34:20Z' uid='1476146' user='Alecs01' visible='true' version='16' changeset='16952075' lat='45.5834418' lon='9.2735257'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1846' />
+    <tag k='is_in' v='Monza e Brianza, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Monza' />
+    <tag k='name:bg' v='Монца' />
+    <tag k='name:de' v='Monza' />
+    <tag k='name:el' v='Μόντσα' />
+    <tag k='name:en' v='Monza' />
+    <tag k='name:es' v='Monza' />
+    <tag k='name:fr' v='Monza' />
+    <tag k='name:it' v='Monza' />
+    <tag k='name:pt' v='Monza' />
+    <tag k='name:ru' v='Монца' />
+    <tag k='name:zh' v='蒙扎' />
+    <tag k='place' v='city' />
+    <tag k='population' v='120204' />
+    <tag k='ref:ISTAT' v='108033' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Monza' />
+  </node>
+  <node id='63621601' timestamp='2013-05-14T00:13:13Z' uid='1241595' user='Runis' visible='true' version='18' changeset='16118753' lat='44.9131176' lon='8.616157'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='860' />
+    <tag k='is_in' v='Alessandria, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Alessandria' />
+    <tag k='name:fr' v='Alexandrie' />
+    <tag k='name:lt' v='Alesandrija' />
+    <tag k='name:pms' v='Lissandria' />
+    <tag k='name:pt' v='Alexandria' />
+    <tag k='name:ru' v='Алессандрия' />
+    <tag k='name:zh' v='亚历山德里亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='85438' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Alessandria' />
+  </node>
+  <node id='63621610' timestamp='2013-05-02T21:31:02Z' uid='90780' user='Verdy_p' visible='true' version='14' changeset='15953204' lat='44.9006793' lon='8.2068525'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='744' />
+    <tag k='is_in' v='Asti, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Asti' />
+    <tag k='name:ru' v='Асти' />
+    <tag k='name:zh' v='阿斯蒂' />
+    <tag k='place' v='town' />
+    <tag k='population' v='71276' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='63621624' timestamp='2013-05-02T21:31:02Z' uid='90780' user='Verdy_p' visible='true' version='15' changeset='15953204' lat='45.5664109' lon='8.0542758'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7691' />
+    <tag k='is_in' v='Biella, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Biella' />
+    <tag k='name:fr' v='Bielle' />
+    <tag k='name:he' v='ביאלה' />
+    <tag k='name:ru' v='Бьелла' />
+    <tag k='name:zh' v='比耶拉' />
+    <tag k='place' v='town' />
+    <tag k='population' v='45740' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Biella' />
+  </node>
+  <node id='63621631' timestamp='2013-05-26T20:32:26Z' uid='675302' user='Martj9' visible='true' version='11' changeset='16300835' lat='44.3895619' lon='7.5478699'>
+    <tag k='capital' v='6' />
+    <tag k='ele' v='534' />
+    <tag k='gfoss_id' v='567' />
+    <tag k='is_in' v='Cuneo, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Cuneo' />
+    <tag k='name:fr' v='Coni' />
+    <tag k='name:pms' v='Coni' />
+    <tag k='name:ru' v='Кунео' />
+    <tag k='name:zh' v='庫內奧' />
+    <tag k='place' v='town' />
+    <tag k='population' v='52334' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='63621639' timestamp='2013-04-23T13:07:51Z' uid='16821' user='geraki' visible='true' version='11' changeset='15836607' lat='45.4464036' lon='8.619655'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='459' />
+    <tag k='is_in' v='Novara, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Novara' />
+    <tag k='name:el' v='Νοβάρα' />
+    <tag k='name:fr' v='Novare' />
+    <tag k='name:ru' v='Новара' />
+    <tag k='name:zh' v='諾瓦拉' />
+    <tag k='place' v='city' />
+    <tag k='population' v='100910' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Novara' />
+  </node>
+  <node id='63621643' timestamp='2012-12-22T22:57:07Z' uid='178186' user='mdk' visible='true' version='9' changeset='14371843' lat='45.9221715' lon='8.5516789'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='8096' />
+    <tag k='is_in' v='Verbano-Cusio-Ossola, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Verbania' />
+    <tag k='name:it' v='Verbania' />
+    <tag k='name:ru' v='Вербания' />
+    <tag k='name:zh' v='韦尔巴尼亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='30128' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='63621650' timestamp='2013-05-02T21:31:36Z' uid='90780' user='Verdy_p' visible='true' version='12' changeset='15953204' lat='45.3251557' lon='8.4227666'>
+    <tag k='addr:postcode' v='13100' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='398' />
+    <tag k='is_in' v='Vercelli, Piemonte, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Vercelli' />
+    <tag k='name:fr' v='Verceil' />
+    <tag k='name:ru' v='Верчелли' />
+    <tag k='name:zh' v='韦尔切利' />
+    <tag k='place' v='town' />
+    <tag k='population' v='45132' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Vercelli' />
+  </node>
+  <node id='64776486' action='modify' timestamp='2013-06-18T15:32:55Z' uid='115612' user='tyr_asd' visible='true' version='27' changeset='16605037' lat='46.49676089762382' lon='11.357962073890297'>
+    <tag k='alt_name:lld' v='Balsan' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='2759' />
+    <tag k='is_in' v='Bolzano - Bozen, Trentino-Südtirol/Alto Adige, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Bolzano - Bozen' />
+    <tag k='name:de' v='Bozen' />
+    <tag k='name:es' v='Bolzano' />
+    <tag k='name:fur' v='Bolçan' />
+    <tag k='name:hr' v='Bocen' />
+    <tag k='name:it' v='Bolzano' />
+    <tag k='name:ja' v='ボルツァーノ' />
+    <tag k='name:la' v='Bauzanum' />
+    <tag k='name:lb' v='Bozen' />
+    <tag k='name:lld' v='Bulsan' />
+    <tag k='name:lmo' v='Bulsan' />
+    <tag k='name:lt' v='Bolcāno' />
+    <tag k='name:nl' v='Bozen' />
+    <tag k='name:pms' v='Bolsan' />
+    <tag k='name:pt' v='Bolzano' />
+    <tag k='name:rm' v='Bulsaun' />
+    <tag k='name:ru' v='Больцано' />
+    <tag k='name:sc' v='Bolzanu' />
+    <tag k='name:scn' v='Buzzanu' />
+    <tag k='name:sh' v='Боцен' />
+    <tag k='name:sl' v='Bocen' />
+    <tag k='name:vec' v='Bolxan' />
+    <tag k='name:zh' v='波尔查诺' />
+    <tag k='place' v='city' />
+    <tag k='population' v='102880' />
+    <tag k='source' v='http://en.wikipedia.org/wiki/Bolzano' />
+  </node>
+  <node id='64778091' timestamp='2012-12-02T15:30:03Z' uid='604999' user='White_Rabbit' visible='true' version='15' changeset='14126174' lat='46.1375185' lon='12.2181711'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3315' />
+    <tag k='is_in' v='Belluno, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Belluno' />
+    <tag k='name:fur' v='Belun' />
+    <tag k='name:it' v='Belluno' />
+    <tag k='name:ru' v='Беллуно' />
+    <tag k='name:vec' v='Belun' />
+    <tag k='name:zh' v='贝卢诺' />
+    <tag k='old_name:de' v='Beilun' />
+    <tag k='place' v='city' />
+    <tag k='population' v='35050' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='source:name:de' v='http://it.wikipedia.org/wiki/Esonimi_tedeschi_di_località_italiane' />
+  </node>
+  <node id='64778096' action='modify' timestamp='2012-12-03T12:56:38Z' uid='604999' user='White_Rabbit' visible='true' version='14' changeset='14138223' lat='45.07090341529483' lon='11.787096980674747'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3660' />
+    <tag k='is_in' v='Rovigo, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Rovigo' />
+    <tag k='name:it' v='Rovigo' />
+    <tag k='name:ru' v='Ровиго' />
+    <tag k='name:zh' v='罗维戈' />
+    <tag k='place' v='city' />
+    <tag k='population' v='50289' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='64778098' timestamp='2013-05-13T23:47:40Z' uid='1241595' user='Runis' visible='true' version='20' changeset='16118635' lat='45.6660842' lon='12.2417066'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3464' />
+    <tag k='is_in' v='Treviso, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Treviso' />
+    <tag k='name:fr' v='Trévise' />
+    <tag k='name:fur' v='Trevîs' />
+    <tag k='name:he' v='טרוויזו' />
+    <tag k='name:lt' v='Trevizas' />
+    <tag k='name:ru' v='Тревизо' />
+    <tag k='name:uk' v='Тревізо' />
+    <tag k='name:vec' v='Trevixo' />
+    <tag k='name:zh' v='特雷維索' />
+    <tag k='place' v='city' />
+    <tag k='population' v='80144' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Treviso' />
+  </node>
+  <node id='64778101' timestamp='2013-04-26T07:34:40Z' uid='112189' user='cucu' visible='true' version='23' changeset='15868903' lat='45.4384958' lon='10.9924122'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3181' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Verona, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Verona' />
+    <tag k='name:fr' v='Vérone' />
+    <tag k='name:it' v='Verona' />
+    <tag k='name:ru' v='Верона' />
+    <tag k='name:sr' v='Верона' />
+    <tag k='name:zh' v='维罗纳' />
+    <tag k='old_name:de' v='Bern' />
+    <tag k='place' v='city' />
+    <tag k='population' v='253208' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Verona' />
+  </node>
+  <node id='64778102' action='modify' timestamp='2013-04-24T19:54:13Z' uid='112189' user='cucu' visible='true' version='17' changeset='15853469' lat='45.54846163011732' lon='11.549828833642534'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3303' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Vicenza, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Vicenza' />
+    <tag k='name:fr' v='Vicence' />
+    <tag k='name:he' v='ויצ&apos;נצה' />
+    <tag k='name:it' v='Vicenza' />
+    <tag k='name:ru' v='Виченца' />
+    <tag k='name:sr' v='Виценца' />
+    <tag k='name:vec' v='Vicensa' />
+    <tag k='name:zh' v='维琴察' />
+    <tag k='place' v='city' />
+    <tag k='population' v='107223' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Vicenza' />
+  </node>
+  <node id='66502654' timestamp='2013-05-13T23:47:15Z' uid='1241595' user='Runis' visible='true' version='19' changeset='16118635' lat='45.9441468' lon='13.6244204'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3815' />
+    <tag k='is_in' v='Gorizia, Friuli-Venezia Giulia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='loc_name' v='Gurisa' />
+    <tag k='name' v='Gorizia' />
+    <tag k='name:de' v='Görz' />
+    <tag k='name:fur' v='Gurize' />
+    <tag k='name:hr' v='Gorica' />
+    <tag k='name:lt' v='Goricija' />
+    <tag k='name:pl' v='Gorycja' />
+    <tag k='name:ru' v='Гориция' />
+    <tag k='name:sl' v='Gorica' />
+    <tag k='name:uk' v='Горіція' />
+    <tag k='name:zh' v='戈里齐亚' />
+    <tag k='place' v='city' />
+    <tag k='population' v='35667' />
+    <tag k='wikipedia' v='it:Gorizia' />
+  </node>
+  <node id='66502659' action='modify' timestamp='2012-12-03T12:56:36Z' uid='604999' user='White_Rabbit' visible='true' version='12' changeset='14138223' lat='45.95926826381632' lon='12.660192404200044'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7538' />
+    <tag k='is_in' v='Pordenone, Friuli-Venezia Giulia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Pordenone' />
+    <tag k='name:de' v='Portenau' />
+    <tag k='name:fur' v='Pordenon' />
+    <tag k='name:la' v='Portus Naonis' />
+    <tag k='name:ru' v='Порденоне' />
+    <tag k='name:sl' v='Pordenon' />
+    <tag k='name:vec' v='Pordenon' />
+    <tag k='name:zh' v='波代諾內' />
+    <tag k='place' v='city' />
+    <tag k='population' v='49122' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='66502664' timestamp='2013-07-14T16:46:48Z' uid='447242' user='Diego Cruciat' visible='true' version='14' changeset='16951554' lat='46.0647096' lon='13.2358296'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3800' />
+    <tag k='is_in' v='Udine, Friuli-Venezia Giulia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Udine' />
+    <tag k='name:fur' v='Udin' />
+    <tag k='name:it' v='Udine' />
+    <tag k='name:la' v='Utinum' />
+    <tag k='name:ru' v='Удине' />
+    <tag k='name:sl' v='Videm' />
+    <tag k='name:sr' v='Удине' />
+    <tag k='name:zh' v='烏迪內' />
+    <tag k='old_name:de' v='Weiden' />
+    <tag k='place' v='city' />
+    <tag k='population' v='95030' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='66586326' timestamp='2013-05-02T21:31:35Z' uid='90780' user='Verdy_p' visible='true' version='13' changeset='15953204' lat='43.8833265' lon='8.0222474'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1152' />
+    <tag k='is_in' v='Imperia, Liguria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Imperia' />
+    <tag k='name:ru' v='Империя' />
+    <tag k='name:zh' v='因佩里亞' />
+    <tag k='place' v='town' />
+    <tag k='population' v='39458' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='66586332' timestamp='2013-05-02T21:31:35Z' uid='90780' user='Verdy_p' visible='true' version='9' changeset='15953204' lat='44.107033' lon='9.8282255'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1339' />
+    <tag k='is_in' v='La Spezia, Liguria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='La Spezia' />
+    <tag k='name:fr' v='La Spezia' />
+    <tag k='name:it' v='La Spezia' />
+    <tag k='name:lij' v='Spèza' />
+    <tag k='name:ru' v='Специя' />
+    <tag k='name:zh' v='拉斯佩齐亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='91391' />
+    <tag k='ref:ISTAT' v='011015' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:La Spezia' />
+  </node>
+  <node id='66586339' timestamp='2013-05-02T21:31:36Z' uid='90780' user='Verdy_p' visible='true' version='14' changeset='15953204' lat='44.3078775' lon='8.4810276'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='1244' />
+    <tag k='is_in' v='Savona, Liguria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Savona' />
+    <tag k='name:fr' v='Savone' />
+    <tag k='name:it' v='Savona' />
+    <tag k='name:ru' v='Савона' />
+    <tag k='name:zh' v='萨沃纳' />
+    <tag k='place' v='town' />
+    <tag k='population' v='59907' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Savona' />
+  </node>
+  <node id='67253674' timestamp='2013-05-13T23:47:07Z' uid='1241595' user='Runis' visible='true' version='21' changeset='16118635' lat='37.316522' lon='13.5896537'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7032' />
+    <tag k='name' v='Agrigento' />
+    <tag k='name:de' v='Agrigent' />
+    <tag k='name:fr' v='Agrigente' />
+    <tag k='name:he' v='אגריג&apos;נטו' />
+    <tag k='name:it' v='Agrigento' />
+    <tag k='name:lt' v='Agridžentas' />
+    <tag k='name:ru' v='Агридженто' />
+    <tag k='name:scn' v='Girgenti' />
+    <tag k='name:uk' v='Агрідженто' />
+    <tag k='name:zh' v='阿格里真托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='54619' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Agrigento' />
+  </node>
+  <node id='67253682' timestamp='2012-12-02T15:30:05Z' uid='604999' user='White_Rabbit' visible='true' version='12' changeset='14126174' lat='37.4898289' lon='14.0632916'>
+    <tag k='alt_name:scn' v='Cartanisetta' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7078' />
+    <tag k='name' v='Caltanissetta' />
+    <tag k='name:ru' v='Кальтаниссетта' />
+    <tag k='name:scn' v='Nissa' />
+    <tag k='name:zh' v='卡爾塔尼塞塔' />
+    <tag k='place' v='city' />
+    <tag k='population' v='61438' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='67253693' timestamp='2013-04-26T07:54:07Z' uid='112189' user='cucu' visible='true' version='17' changeset='15869069' lat='37.5026081' lon='15.0871114'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7131' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Catania' />
+    <tag k='name:es' v='Catania' />
+    <tag k='name:fi' v='Catania' />
+    <tag k='name:fr' v='Catane' />
+    <tag k='name:he' v='קטניה' />
+    <tag k='name:it' v='Catania' />
+    <tag k='name:pl' v='Katania' />
+    <tag k='name:pt' v='Catânia' />
+    <tag k='name:ru' v='Катания' />
+    <tag k='name:zh' v='卡塔尼亞' />
+    <tag k='place' v='city' />
+    <tag k='population' v='313110' />
+    <tag k='rank' v='20' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Catania' />
+  </node>
+  <node id='67253697' timestamp='2012-12-02T17:42:00Z' uid='604999' user='White_Rabbit' visible='true' version='14' changeset='14128245' lat='37.5659619' lon='14.2824038'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7105' />
+    <tag k='name' v='Enna' />
+    <tag k='name:it' v='Enna' />
+    <tag k='name:ru' v='Энна' />
+    <tag k='name:scn' v='Castrugiuvanni' />
+    <tag k='name:zh' v='恩纳' />
+    <tag k='place' v='city' />
+    <tag k='population' v='28983' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='67253701' timestamp='2013-05-13T23:47:23Z' uid='1241595' user='Runis' visible='true' version='22' changeset='16118635' lat='38.1937571' lon='15.5542082'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6971' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Messina' />
+    <tag k='name:ar' v='مسينة' />
+    <tag k='name:el' v='Μεσσήνη' />
+    <tag k='name:es' v='Mesina' />
+    <tag k='name:fr' v='Messine' />
+    <tag k='name:he' v='מסינה' />
+    <tag k='name:it' v='Messina' />
+    <tag k='name:ja' v='メッシーナ' />
+    <tag k='name:lt' v='Mesina' />
+    <tag k='name:pl' v='Mesyna' />
+    <tag k='name:ru' v='Мессина' />
+    <tag k='name:scn' v='Missina' />
+    <tag k='name:uk' v='Мессіна' />
+    <tag k='name:zh' v='墨西拿' />
+    <tag k='place' v='city' />
+    <tag k='population' v='252026' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Messina' />
+  </node>
+  <node id='67253706' timestamp='2013-07-14T13:29:55Z' uid='923271' user='aldoct' visible='true' version='18' changeset='16949307' lat='36.9254832' lon='14.7291966'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7183' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='name' v='Ragusa' />
+    <tag k='name:fr' v='Raguse' />
+    <tag k='name:it' v='Ragusa' />
+    <tag k='name:lt' v='Ragūza' />
+    <tag k='name:ru' v='Рагуза' />
+    <tag k='name:scn' v='Raùsa' />
+    <tag k='name:uk' v='Рагуза' />
+    <tag k='name:zh' v='拉古萨' />
+    <tag k='place' v='city' />
+    <tag k='population' v='68956' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Ragusa' />
+  </node>
+  <node id='67253724' timestamp='2011-05-23T09:30:13Z' uid='71261' user='David Paleino' visible='true' version='10' changeset='8224526' lat='38.0160543' lon='12.5437475'>
+    <tag k='capital' v='6' />
+    <tag k='ele' v='3' />
+    <tag k='gfoss_id' v='6838' />
+    <tag k='istat_id' v='081021' />
+    <tag k='name' v='Trapani' />
+    <tag k='name:an' v='Tràpani' />
+    <tag k='name:ar' v='تراباني' />
+    <tag k='name:bg' v='Трапани' />
+    <tag k='name:el' v='Δρέπανον' />
+    <tag k='name:fa' v='تراپانی' />
+    <tag k='name:he' v='טרפאני' />
+    <tag k='name:ja' v='トラーパニ' />
+    <tag k='name:la' v='Drepanum' />
+    <tag k='name:pms' v='Tràpani' />
+    <tag k='name:pt' v='Trápani' />
+    <tag k='name:roa-tara' v='Trapane' />
+    <tag k='name:ru' v='Трапани' />
+    <tag k='name:scn' v='Tràpani' />
+    <tag k='name:sr' v='Трапани' />
+    <tag k='name:uk' v='Трапані' />
+    <tag k='name:zh' v='特拉帕尼' />
+    <tag k='place' v='city' />
+    <tag k='population' v='70654' />
+    <tag k='wikipedia:it' v='Trapani' />
+  </node>
+  <node id='67273280' timestamp='2013-05-14T00:13:31Z' uid='1241595' user='Runis' visible='true' version='19' changeset='16118753' lat='38.1104608' lon='15.6614235'>
+    <tag k='alt_name' v='Reggio Calabria' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6783' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Reggio di Calabria' />
+    <tag k='name:ar' v='ريدجو كالابريا' />
+    <tag k='name:es' v='Regio de Calabria' />
+    <tag k='name:fa' v='رجیو کالابریا' />
+    <tag k='name:fr' v='Reggio de Calabre' />
+    <tag k='name:he' v='רג&apos;ו די קלבריה' />
+    <tag k='name:it' v='Reggio di Calabria' />
+    <tag k='name:lt' v='Kalabrijos Redžas' />
+    <tag k='name:ru' v='Реджо-ди-Калабрия' />
+    <tag k='name:scn' v='Riggiu di Calabria' />
+    <tag k='name:zh' v='雷焦卡拉布里亚' />
+    <tag k='place' v='city' />
+    <tag k='population' v='180353' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Reggio Calabria' />
+  </node>
+  <node id='67273302' timestamp='2013-05-02T18:47:50Z' uid='613873' user='pippinu' visible='true' version='12' changeset='15950900' lat='39.3099931' lon='16.2501929'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6530' />
+    <tag k='is_in' v='Cosenza, Calabria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Cosenza' />
+    <tag k='name:ru' v='Козенца' />
+    <tag k='name:scn' v='Cusenza' />
+    <tag k='name:sr' v='Козенца' />
+    <tag k='name:zh' v='科森扎' />
+    <tag k='place' v='city' />
+    <tag k='population' v='72998' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='67273310' timestamp='2013-05-13T23:47:13Z' uid='1241595' user='Runis' visible='true' version='20' changeset='16118635' lat='39.0806223' lon='17.127196'>
+    <tag k='alt_name' v='Krotone' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7957' />
+    <tag k='int_name' v='Crotone' />
+    <tag k='is_in' v='Crotone, Calabria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Crotone' />
+    <tag k='name:es' v='Crotona' />
+    <tag k='name:it' v='Crotone' />
+    <tag k='name:lt' v='Krotonė' />
+    <tag k='name:ru' v='Кротоне' />
+    <tag k='name:scn' v='Cutroni' />
+    <tag k='name:uk' v='Кротоне' />
+    <tag k='name:zh' v='克羅托內' />
+    <tag k='old_name' v='Cotrone' />
+    <tag k='place' v='city' />
+    <tag k='population' v='60010' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Crotone' />
+  </node>
+  <node id='67273319' timestamp='2013-05-15T05:42:38Z' uid='1241595' user='Runis' visible='true' version='13' changeset='16134165' lat='38.67428' lon='16.095097'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='8021' />
+    <tag k='is_in' v='Vibo Valentia, Calabria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Vibo Valentia' />
+    <tag k='name:he' v='ויבו ולנטיה' />
+    <tag k='name:lt' v='Vibo Valentija' />
+    <tag k='name:ru' v='Вибо-Валентия' />
+    <tag k='name:scn' v='Vibbu Valenzia' />
+    <tag k='name:zh' v='维博瓦伦蒂亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='33957' />
+    <tag k='wikipedia' v='de:Vibo Valentia' />
+  </node>
+  <node id='67280326' timestamp='2013-04-24T16:06:25Z' uid='112189' user='cucu' visible='true' version='8' changeset='15850909' lat='40.668523' lon='16.601585'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6468' />
+    <tag k='is_in' v='Matera, Basilicata, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Matera' />
+    <tag k='name:ru' v='Матера' />
+    <tag k='name:zh' v='马泰拉' />
+    <tag k='place' v='town' />
+    <tag k='population' v='57785' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='67283753' timestamp='2012-12-02T17:42:03Z' uid='604999' user='White_Rabbit' visible='true' version='6' changeset='14128245' lat='41.600225' lon='14.23822'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7580' />
+    <tag k='is_in' v='Isernia, Molise, Italy' />
+    <tag k='name' v='Isernia' />
+    <tag k='name:zh' v='伊塞尔尼亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='21152' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68507510' timestamp='2012-12-03T12:56:41Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14138223' lat='42.5641417' lon='12.6405466'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4777' />
+    <tag k='is_in' v='Terni, Umbria, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Terni' />
+    <tag k='name:ru' v='Терни' />
+    <tag k='name:zh' v='特爾尼' />
+    <tag k='place' v='city' />
+    <tag k='population' v='105018' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68528589' timestamp='2012-12-02T15:30:05Z' uid='604999' user='White_Rabbit' visible='true' version='13' changeset='14126174' lat='40.6327065' lon='17.941611'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6238' />
+    <tag k='is_in' v='Brindisi, Puglia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Brindisi' />
+    <tag k='name:ru' v='Бриндизи' />
+    <tag k='name:sr' v='Бриндизи' />
+    <tag k='name:zh' v='布林迪西' />
+    <tag k='place' v='city' />
+    <tag k='population' v='89081' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68528599' timestamp='2012-12-02T17:42:04Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14128245' lat='40.3570373' lon='18.1718482'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6292' />
+    <tag k='is_in' v='Lecce, Puglia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Lecce' />
+    <tag k='name:ru' v='Лечче' />
+    <tag k='name:zh' v='萊切' />
+    <tag k='place' v='city' />
+    <tag k='population' v='83303' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68528603' timestamp='2013-04-01T10:25:35Z' uid='152074' user='beweta' visible='true' version='15' changeset='15565130' lat='40.4712677' lon='17.243176'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6235' />
+    <tag k='is_in' v='Taranto, Puglia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Taranto' />
+    <tag k='name:ast' v='Tarento' />
+    <tag k='name:de' v='Tarent' />
+    <tag k='name:es' v='Tarento' />
+    <tag k='name:fi' v='Taranto' />
+    <tag k='name:fr' v='Tarente' />
+    <tag k='name:la' v='Tarentum' />
+    <tag k='name:pl' v='Tarent' />
+    <tag k='name:pt' v='Tarento' />
+    <tag k='name:ru' v='Таранто' />
+    <tag k='name:sr' v='Таранто' />
+    <tag k='name:zh' v='塔兰托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='202033' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Taranto' />
+  </node>
+  <node id='68528716' timestamp='2012-12-02T15:30:02Z' uid='604999' user='White_Rabbit' visible='true' version='11' changeset='14126174' lat='41.227674' lon='16.2947553'>
+    <tag k='capital' v='6' />
+    <tag k='is_in' v='Bari, Puglia, Italy' />
+    <tag k='name' v='Andria' />
+    <tag k='name:ru' v='Андрия' />
+    <tag k='name:zh' v='安德里亞' />
+    <tag k='place' v='city' />
+    <tag k='population' v='95653' />
+    <tag k='postal_code' v='76123' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68528809' timestamp='2012-12-03T12:56:41Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14138223' lat='41.275088' lon='16.4162585'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6205' />
+    <tag k='is_in' v='Bari, Puglia, Italy' />
+    <tag k='name' v='Trani' />
+    <tag k='name:ru' v='Трани' />
+    <tag k='name:zh' v='特拉尼' />
+    <tag k='place' v='city' />
+    <tag k='population' v='53139' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68566148' timestamp='2012-12-02T15:30:03Z' uid='604999' user='White_Rabbit' visible='true' version='9' changeset='14126174' lat='40.9141958' lon='14.7888764'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5438' />
+    <tag k='is_in' v='Avellino, Campania, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Avellino' />
+    <tag k='name:ru' v='Авеллино' />
+    <tag k='name:zh' v='阿韋利諾' />
+    <tag k='place' v='city' />
+    <tag k='population' v='52703' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='68566151' timestamp='2013-07-02T15:21:55Z' uid='1258547' user='Decan' visible='true' version='14' changeset='16793501' lat='41.1295587' lon='14.7824639'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5268' />
+    <tag k='is_in' v='Benevento, Campania, Italy' />
+    <tag k='is_in:city' v='Benevento' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Benevento' />
+    <tag k='name:fr' v='Bénévent' />
+    <tag k='name:he' v='בנוונטו' />
+    <tag k='name:pl' v='Benewent' />
+    <tag k='name:ru' v='Беневенто' />
+    <tag k='name:zh' v='貝內文托' />
+    <tag k='place' v='city' />
+    <tag k='population' v='61791' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Benevento' />
+  </node>
+  <node id='68566158' timestamp='2013-05-14T13:49:14Z' uid='1241595' user='Runis' visible='true' version='13' changeset='16125857' lat='41.083215' lon='14.3349289'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5178' />
+    <tag k='is_in' v='Caserta, Campania, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Caserta' />
+    <tag k='name:fr' v='Caserte' />
+    <tag k='name:lt' v='Kazerta' />
+    <tag k='name:ru' v='Казерта' />
+    <tag k='name:zh' v='卡塞塔' />
+    <tag k='place' v='city' />
+    <tag k='population' v='78872' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Caserta' />
+  </node>
+  <node id='68566163' timestamp='2013-01-27T17:48:14Z' uid='78172' user='FabC' visible='true' version='10' changeset='14811282' lat='40.6779781' lon='14.7657547'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5665' />
+    <tag k='is_in' v='Salerno, Campania, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Salerno' />
+    <tag k='name:fr' v='Salerne' />
+    <tag k='name:la' v='Salernum' />
+    <tag k='name:lt' v='Salernas' />
+    <tag k='name:ru' v='Салерно' />
+    <tag k='name:zh' v='薩萊諾' />
+    <tag k='place' v='city' />
+    <tag k='population' v='138188' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Salerno' />
+  </node>
+  <node id='69299999' action='modify' timestamp='2012-12-02T17:42:01Z' uid='604999' user='White_Rabbit' visible='true' version='9' changeset='14128245' lat='44.221951082097625' lon='12.040945634050603'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4139' />
+    <tag k='is_in' v='Forlì-Cesena, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Forlì' />
+    <tag k='name:ru' v='Форли' />
+    <tag k='name:zh' v='福尔尔伊德尔桑尼奥' />
+    <tag k='place' v='city' />
+    <tag k='population' v='108335' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='69300003' action='modify' timestamp='2013-02-05T20:19:38Z' uid='557165' user='vvUnai' visible='true' version='14' changeset='14926326' lat='44.648144808869' lon='10.92913044884671'>
+    <tag k='addr:postcode' v='41100 - 41126' />
+    <tag k='alt_name' v='Mòdna' />
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4002' />
+    <tag k='is_in' v='Modena, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Modena' />
+    <tag k='name:es' v='Módena' />
+    <tag k='name:fr' v='Modène' />
+    <tag k='name:it' v='Modena' />
+    <tag k='name:pt' v='Módena' />
+    <tag k='name:ru' v='Модена' />
+    <tag k='name:zh' v='摩德納' />
+    <tag k='old_name' v='Mutina' />
+    <tag k='place' v='city' />
+    <tag k='population' v='186289' />
+    <tag k='ref:ISTAT' v='036023' />
+    <tag k='ref:catasto' v='F257' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='website' v='http://www.comune.modena.it/' />
+    <tag k='wikipedia' v='it:Modena' />
+  </node>
+  <node id='69300007' timestamp='2013-02-01T13:12:21Z' uid='99231' user='fra76mm' visible='true' version='17' changeset='14871061' lat='44.8011232' lon='10.3285084'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3914' />
+    <tag k='is_in' v='Parma, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Parma' />
+    <tag k='name:fr' v='Parme' />
+    <tag k='name:he' v='פארמה' />
+    <tag k='name:ru' v='Парма' />
+    <tag k='name:sr' v='Парма' />
+    <tag k='name:zh' v='帕爾馬' />
+    <tag k='place' v='city' />
+    <tag k='population' v='163457' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Parma' />
+  </node>
+  <node id='69300015' timestamp='2013-01-29T12:53:11Z' uid='99231' user='fra76mm' visible='true' version='12' changeset='14834478' lat='44.4161414' lon='12.2017617'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4126' />
+    <tag k='is_in' v='Ravenna, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Ravenna' />
+    <tag k='name:es' v='Rávena' />
+    <tag k='name:fr' v='Ravenne' />
+    <tag k='name:he' v='רוונה' />
+    <tag k='name:ru' v='Равенна' />
+    <tag k='name:zh' v='拉文納' />
+    <tag k='old_name:de' v='Raben' />
+    <tag k='place' v='city' />
+    <tag k='population' v='134631' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Ravenna' />
+  </node>
+  <node id='69300020' timestamp='2012-12-03T12:56:38Z' uid='604999' user='White_Rabbit' visible='true' version='10' changeset='14138223' lat='44.0587517' lon='12.5631537'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7934' />
+    <tag k='is_in' v='Rimini, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Rimini' />
+    <tag k='name:ru' v='Римини' />
+    <tag k='name:sr' v='Римини' />
+    <tag k='name:zh' v='里米尼' />
+    <tag k='place' v='city' />
+    <tag k='population' v='128656' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='70978814' timestamp='2013-05-21T21:55:43Z' uid='123412' user='totera' visible='true' version='9' changeset='16230971' lat='42.8546936' lon='13.5863341'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4340' />
+    <tag k='is_in' v='Ascoli Piceno, Marche, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Ascoli Piceno' />
+    <tag k='name:it' v='Ascoli Piceno' />
+    <tag k='name:ru' v='Асколи-Пичено' />
+    <tag k='name:zh' v='阿斯科利皮切諾' />
+    <tag k='place' v='city' />
+    <tag k='population' v='51375' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='70978829' timestamp='2013-05-29T16:00:33Z' uid='179966' user='jeawrong' visible='true' version='15' changeset='16339806' lat='43.3007275' lon='13.4535897'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4299' />
+    <tag k='name' v='Macerata' />
+    <tag k='name:it' v='Macerata' />
+    <tag k='name:ru' v='Мачерата' />
+    <tag k='name:zh' v='马切拉塔' />
+    <tag k='place' v='town' />
+    <tag k='population' v='40875' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='70978843' action='modify' timestamp='2013-04-26T07:17:25Z' uid='112189' user='cucu' visible='true' version='10' changeset='15868744' lat='43.728026144195184' lon='12.637784480684594'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4227' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Pesaro e Urbino, Marche, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Urbino' />
+    <tag k='name:ru' v='Урбино' />
+    <tag k='name:zh' v='乌尔比诺' />
+    <tag k='place' v='town' />
+    <tag k='population' v='15270' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Urbino' />
+  </node>
+  <node id='70980700' timestamp='2013-05-21T21:55:43Z' uid='123412' user='totera' visible='true' version='10' changeset='16230971' lat='43.1604184' lon='13.7161408'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4352' />
+    <tag k='is_in' v='Ascoli Piceno, Marche, Italy' />
+    <tag k='name' v='Fermo' />
+    <tag k='name:it' v='Fermo' />
+    <tag k='name:zh' v='費爾莫' />
+    <tag k='place' v='town' />
+    <tag k='population' v='37834' />
+    <tag k='source:population' v='wikipedia:it, 2010-12-31' />
+    <tag k='wikipedia' v='it:Fermo' />
+  </node>
+  <node id='70990208' timestamp='2012-12-02T15:30:07Z' uid='604999' user='White_Rabbit' visible='true' version='10' changeset='14126174' lat='42.3446529' lon='14.1659738'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5930' />
+    <tag k='is_in' v='Chieti, Abruzzo, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Chieti' />
+    <tag k='name:ru' v='Кьети' />
+    <tag k='name:zh' v='基耶蒂' />
+    <tag k='place' v='city' />
+    <tag k='population' v='52486' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='70990245' timestamp='2012-12-03T12:56:40Z' uid='604999' user='White_Rabbit' visible='true' version='9' changeset='14138223' lat='42.6626986' lon='13.701496'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5856' />
+    <tag k='is_in' v='Teramo, Abruzzo, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Teramo' />
+    <tag k='name:ru' v='Терамо' />
+    <tag k='name:zh' v='泰拉莫' />
+    <tag k='place' v='city' />
+    <tag k='population' v='51023' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72959669' timestamp='2013-05-02T21:31:35Z' uid='90780' user='Verdy_p' visible='true' version='14' changeset='15953204' lat='41.6419807' lon='13.3469287'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5103' />
+    <tag k='is_in' v='Frosinone, Lazio, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Frosinone' />
+    <tag k='name:ru' v='Фрозиноне' />
+    <tag k='name:zh' v='弗罗西诺内' />
+    <tag k='place' v='town' />
+    <tag k='population' v='48636' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72959682' timestamp='2012-12-02T17:42:04Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14128245' lat='41.4672589' lon='12.9035737'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='5043' />
+    <tag k='is_in' v='Latina, Lazio, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Latina' />
+    <tag k='name:ru' v='Латина' />
+    <tag k='name:zh' v='拉蒂纳' />
+    <tag k='place' v='city' />
+    <tag k='population' v='107898' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72959697' timestamp='2012-12-03T12:56:38Z' uid='604999' user='White_Rabbit' visible='true' version='11' changeset='14138223' lat='42.4016906' lon='12.8629993'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4897' />
+    <tag k='is_in' v='Rieti, Lazio, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Rieti' />
+    <tag k='name:ru' v='Риети' />
+    <tag k='name:zh' v='列蒂' />
+    <tag k='place' v='town' />
+    <tag k='population' v='47751' />
+    <tag k='source:population' v='wikipedia:it 2010-11-31' />
+    <tag k='wikipedia' v='it:Rieti' />
+  </node>
+  <node id='72959715' timestamp='2013-05-14T12:57:36Z' uid='1241595' user='Runis' visible='true' version='12' changeset='16125193' lat='42.4164974' lon='12.1039438'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4837' />
+    <tag k='is_in' v='Viterbo, Lazio, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Viterbo' />
+    <tag k='name:fr' v='Viterbe' />
+    <tag k='name:lt' v='Viterbas' />
+    <tag k='name:ru' v='Витербо' />
+    <tag k='name:zh' v='維泰博' />
+    <tag k='place' v='town' />
+    <tag k='population' v='59308' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Viterbo' />
+  </node>
+  <node id='72990672' timestamp='2013-04-03T11:09:14Z' uid='454589' user='sabas88' visible='true' version='10' changeset='15593200' lat='40.3210601' lon='9.3297339'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7347' />
+    <tag k='name' v='Nuoro' />
+    <tag k='name:ru' v='Нуоро' />
+    <tag k='name:sc' v='Nùgoro' />
+    <tag k='name:zh' v='努奥罗' />
+    <tag k='place' v='town' />
+    <tag k='population' v='36678' />
+    <tag k='ref:LOCODE' v='ITQNU' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990694' timestamp='2013-07-20T16:22:13Z' uid='454589' user='sabas88' visible='true' version='13' changeset='17024811' lat='40.7233264' lon='8.5611932'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7271' />
+    <tag k='name' v='Sassari' />
+    <tag k='name:ru' v='Сассари' />
+    <tag k='name:sc' v='Thàthari' />
+    <tag k='name:zh' v='薩薩里' />
+    <tag k='place' v='city' />
+    <tag k='population' v='120729' />
+    <tag k='ref:LOCODE' v='ITQSS' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990702' timestamp='2012-12-02T15:30:06Z' uid='604999' user='White_Rabbit' visible='true' version='6' changeset='14126174' lat='39.165332' lon='8.527834'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7409' />
+    <tag k='is_in' v='Carbonia-Iglesias, Sardegna, Italy' />
+    <tag k='name' v='Carbonia' />
+    <tag k='name:sc' v='Crabònia' />
+    <tag k='name:zh' v='卡尔博尼亚' />
+    <tag k='place' v='town' />
+    <tag k='population' v='30447' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990716' timestamp='2012-12-02T17:42:03Z' uid='604999' user='White_Rabbit' visible='true' version='7' changeset='14128245' lat='39.3125402' lon='8.5341109'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7430' />
+    <tag k='is_in' v='Carbonia-Iglesias, Sardegna, Italy' />
+    <tag k='name' v='Iglesias' />
+    <tag k='name:sc' v='Igresias' />
+    <tag k='name:zh' v='伊格莱夏斯' />
+    <tag k='place' v='town' />
+    <tag k='population' v='28170' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990724' timestamp='2012-12-03T12:56:39Z' uid='604999' user='White_Rabbit' visible='true' version='5' changeset='14138223' lat='39.562642' lon='8.898636'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7454' />
+    <tag k='is_in' v='Medio Campidano, Sardegna, Italy' />
+    <tag k='name' v='Sanluri' />
+    <tag k='name:sc' v='Seddori' />
+    <tag k='name:zh' v='桑卢里' />
+    <tag k='place' v='village' />
+    <tag k='population' v='8519' />
+    <tag k='rank' v='0' />
+    <tag k='rank_modifier' v='+3' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990733' timestamp='2013-04-03T11:09:17Z' uid='454589' user='sabas88' visible='true' version='5' changeset='15593200' lat='39.457539' lon='8.737534'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7489' />
+    <tag k='name' v='Villacidro' />
+    <tag k='name:sc' v='Biddacidru' />
+    <tag k='place' v='town' />
+    <tag k='population' v='14732' />
+    <tag k='ref:LOCODE' v='ITVCD' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990741' action='modify' timestamp='2012-12-02T17:42:04Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14128245' lat='39.879283367582254' lon='9.541051396180706'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7333' />
+    <tag k='name' v='Lanusei' />
+    <tag k='name:sc' v='Lanusè' />
+    <tag k='name:zh' v='拉努塞伊' />
+    <tag k='place' v='village' />
+    <tag k='population' v='5841' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990751' timestamp='2013-04-03T11:09:16Z' uid='454589' user='sabas88' visible='true' version='8' changeset='15593200' lat='39.9266045' lon='9.6591551'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7389' />
+    <tag k='name' v='Tortolì' />
+    <tag k='name:sc' v='Tortuelie' />
+    <tag k='name:zh' v='托尔托利' />
+    <tag k='place' v='town' />
+    <tag k='population' v='10609' />
+    <tag k='ref:LOCODE' v='ITTTB' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='source:population' v='http://demo.istat.it/pop2009/index.html' />
+    <tag k='source:population:date' v='2009-01-01' />
+  </node>
+  <node id='72990766' timestamp='2013-04-01T19:03:30Z' uid='454589' user='sabas88' visible='true' version='11' changeset='15572649' lat='40.9213761' lon='9.4856254'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7254' />
+    <tag k='name' v='Olbia' />
+    <tag k='name:ru' v='Ольбия' />
+    <tag k='name:sc' v='Terranoa' />
+    <tag k='name:zh' v='奧爾比亞' />
+    <tag k='place' v='city' />
+    <tag k='population' v='45366' />
+    <tag k='ref:LOCODE' v='ITOLB' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='72990773' timestamp='2013-04-01T19:03:31Z' uid='454589' user='sabas88' visible='true' version='11' changeset='15572649' lat='40.8973821' lon='9.1035159'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7277' />
+    <tag k='name' v='Tempio Pausania' />
+    <tag k='name:ru' v='Темпио Паусания' />
+    <tag k='name:sc' v='Tèmpiu' />
+    <tag k='name:zh' v='坦皮奧袍沙尼亞' />
+    <tag k='place' v='town' />
+    <tag k='population' v='13992' />
+    <tag k='ref:LOCODE' v='ITZVH' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='259855860' timestamp='2013-05-14T13:58:35Z' uid='1241595' user='Runis' visible='true' version='18' changeset='16125949' lat='44.8367971' lon='11.6198107'>
+    <tag k='capital' v='6' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in' v='Ferrara,Emilia-Romagna,Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Ferrara' />
+    <tag k='name:el' v='Φερράρα' />
+    <tag k='name:fr' v='Ferrare' />
+    <tag k='name:it' v='Ferrara' />
+    <tag k='name:lt' v='Ferara' />
+    <tag k='name:ru' v='Феррара' />
+    <tag k='name:sr' v='Ферара' />
+    <tag k='name:vec' v='Ferara' />
+    <tag k='name:zh' v='费拉拉' />
+    <tag k='place' v='city' />
+    <tag k='population' v='134464' />
+    <tag k='wikipedia' v='it:Ferrara' />
+  </node>
+  <node id='266513166' timestamp='2012-12-02T17:42:09Z' uid='604999' user='White_Rabbit' visible='true' version='7' changeset='14128245' lat='43.9098114' lon='12.9131228'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4204' />
+    <tag k='is_in' v='Pesaro e Urbino, Marche, Italy' />
+    <tag k='name' v='Pesaro' />
+    <tag k='name:ru' v='Пезаро' />
+    <tag k='name:zh' v='佩萨罗' />
+    <tag k='place' v='city' />
+    <tag k='population' v='93918' />
+    <tag k='source' v='geodati.gfoss.it' />
+  </node>
+  <node id='406747508' action='modify' timestamp='2013-07-14T16:49:15Z' uid='447242' user='Diego Cruciat' visible='true' version='17' changeset='16951586' lat='45.40927475324848' lon='11.873279560893966'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3575' />
+    <tag k='is_in' v='Padova, Veneto, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Padova' />
+    <tag k='name:ar' v='بادوفا' />
+    <tag k='name:de' v='Padua' />
+    <tag k='name:en' v='Padua' />
+    <tag k='name:es' v='Padua' />
+    <tag k='name:fi' v='Padova' />
+    <tag k='name:fr' v='Padoue' />
+    <tag k='name:pl' v='Padwa' />
+    <tag k='name:pt' v='Pádua' />
+    <tag k='name:ru' v='Падуя' />
+    <tag k='name:sk' v='Padova' />
+    <tag k='name:vec' v='Pàdoa' />
+    <tag k='name:zh' v='帕多瓦' />
+    <tag k='old_name:de' v='Esten' />
+    <tag k='place' v='city' />
+    <tag k='population' v='205573' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Padova' />
+  </node>
+  <node id='566812342' timestamp='2012-12-02T15:30:03Z' uid='604999' user='White_Rabbit' visible='true' version='8' changeset='14126174' lat='41.3204181' lon='16.288259'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='6167' />
+    <tag k='is_in' v='Bari, Puglia, Italy' />
+    <tag k='name' v='Barletta' />
+    <tag k='name:ru' v='Барлетта' />
+    <tag k='name:zh' v='巴列塔' />
+    <tag k='place' v='city' />
+    <tag k='population' v='92094' />
+  </node>
+  <node id='1112986261' timestamp='2012-12-02T17:42:01Z' uid='604999' user='White_Rabbit' visible='true' version='4' changeset='14128245' lat='41.4626384' lon='15.5460328'>
+    <tag k='capital' v='6' />
+    <tag k='is_in' v='Foggia, Puglia, Italy' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Foggia' />
+    <tag k='name:zh' v='福賈' />
+    <tag k='place' v='city' />
+    <tag k='population' v='152863' />
+  </node>
+  <node id='1600269537' timestamp='2013-04-09T23:23:53Z' uid='1285171' user='ciaccaru' visible='true' version='6' changeset='15672297' lat='39.9023565' lon='8.5948592'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7647' />
+    <tag k='name' v='Oristano' />
+    <tag k='name:ru' v='Ористано' />
+    <tag k='name:sc' v='Aristanis' />
+    <tag k='name:zh' v='奥里斯塔诺' />
+    <tag k='place' v='city' />
+    <tag k='population' v='31169' />
+    <tag k='ref:LOCODE' v='ITQOS' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Oristano' />
+  </node>
+  <node id='1677276966' timestamp='2013-01-11T17:11:32Z' uid='779232' user='myscode' visible='true' version='5' changeset='14612376' lat='43.715925' lon='10.4018984'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4570' />
+    <tag k='int_name' v='Pisa' />
+    <tag k='is_in' v='Pisa, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Pisa' />
+    <tag k='name:fr' v='Pise' />
+    <tag k='name:he' v='פיזה' />
+    <tag k='name:pl' v='Piza' />
+    <tag k='name:ru' v='Пиза' />
+    <tag k='name:sl' v='Piza' />
+    <tag k='name:tt' v='Пиза' />
+    <tag k='name:zh' v='比萨' />
+    <tag k='place' v='city' />
+    <tag k='population' v='89694' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Pisa' />
+  </node>
+  <node id='1697770807' timestamp='2013-04-23T13:07:46Z' uid='16821' user='geraki' visible='true' version='9' changeset='15836607' lat='43.5426309' lon='10.3160295'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='4533' />
+    <tag k='is_in' v='Livorno, Toscana, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Livorno' />
+    <tag k='name:el' v='Λιβόρνο' />
+    <tag k='name:en' v='Livorno' />
+    <tag k='name:fr' v='Livourne' />
+    <tag k='name:he' v='ליבורנו' />
+    <tag k='name:ru' v='Ливорно' />
+    <tag k='name:zh' v='里窝那' />
+    <tag k='old_name:en' v='Leghorn' />
+    <tag k='place' v='city' />
+    <tag k='population' v='156274' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Livorno' />
+  </node>
+  <node id='1701090139' timestamp='2013-07-28T00:00:25Z' uid='582049' user='yoko99' visible='true' version='5' changeset='17119902' lat='43.7009358' lon='7.2683912'>
+    <tag k='addr:postcode' v='06000' />
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='code_departement' v='06' />
+    <tag k='name' v='Nice' />
+    <tag k='name:ast' v='Niza' />
+    <tag k='name:ca' v='Niça' />
+    <tag k='name:de' v='Nizza' />
+    <tag k='name:es' v='Niza' />
+    <tag k='name:fi' v='Nizza' />
+    <tag k='name:it' v='Nizza' />
+    <tag k='name:ja' v='ニース' />
+    <tag k='name:lt' v='Nica' />
+    <tag k='name:oc' v='Niça' />
+    <tag k='name:pl' v='Nicea' />
+    <tag k='name:pt' v='Nice' />
+    <tag k='name:ru' v='Ницца' />
+    <tag k='name:sl' v='Nica' />
+    <tag k='name:sr' v='Ница' />
+    <tag k='name:uk' v='Ніцца' />
+    <tag k='place' v='city' />
+    <tag k='population' v='343304' />
+    <tag k='ref:INSEE' v='06088' />
+    <tag k='ref:SIREN' v='210600888' />
+    <tag k='source:population' v='INSEE 2013' />
+    <tag k='wikipedia' v='fr:Nice' />
+  </node>
+  <node id='1932675079' timestamp='2013-04-26T09:59:22Z' uid='112189' user='cucu' visible='true' version='4' changeset='15870262' lat='37.0714375' lon='15.283007'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='7203' />
+    <tag k='heritage' v='1' />
+    <tag k='heritage:operator' v='whc' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Siracusa' />
+    <tag k='name:cs' v='Syrakusy' />
+    <tag k='name:de' v='Syrakus' />
+    <tag k='name:es' v='Siracusa' />
+    <tag k='name:fi' v='Syrakusa' />
+    <tag k='name:fr' v='Syracuse' />
+    <tag k='name:pl' v='Syrakuzy' />
+    <tag k='name:pt' v='Siracusa' />
+    <tag k='name:ru' v='Сиракуза' />
+    <tag k='name:scn' v='Sarausa' />
+    <tag k='name:sk' v='Syrakúzy' />
+    <tag k='name:zh' v='叙拉古' />
+    <tag k='place' v='city' />
+    <tag k='population' v='123657' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='unesco' v='yes' />
+    <tag k='wikipedia' v='it:Siracusa' />
+  </node>
+  <node id='1944059487' timestamp='2013-05-13T23:47:29Z' uid='1241595' user='Runis' visible='true' version='5' changeset='16118635' lat='45.0467651' lon='9.6993659'>
+    <tag k='capital' v='6' />
+    <tag k='gfoss_id' v='3871' />
+    <tag k='is_in' v='Piacenza, Emilia Romagna, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='name' v='Piacenza' />
+    <tag k='name:el' v='Πιατσέντζα' />
+    <tag k='name:es' v='Plasencia' />
+    <tag k='name:fi' v='Piacenza' />
+    <tag k='name:fr' v='Plaisance' />
+    <tag k='name:lt' v='Pjačenca' />
+    <tag k='name:pt' v='Placência' />
+    <tag k='name:ru' v='Пьяченца' />
+    <tag k='name:zh' v='皮亚琴察' />
+    <tag k='place' v='city' />
+    <tag k='population' v='95594' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='wikipedia' v='it:Piacenza' />
+  </node>
+  <node id='2289017953' timestamp='2013-05-02T12:08:11Z' uid='90780' user='Verdy_p' visible='true' version='1' changeset='15945673' lat='45.6945115' lon='9.669839'>
+    <tag k='admin_level' v='8' />
+    <tag k='capital' v='6' />
+    <tag k='email' v='protocollo@comune.bg.it' />
+    <tag k='fax' v='+39 035 399031' />
+    <tag k='gfoss_id' v='1950' />
+    <tag k='is_in' v='Bergamo, Lombardia, Italy' />
+    <tag k='is_in:continent' v='Europe' />
+    <tag k='is_in:country' v='Italy' />
+    <tag k='is_in:country_code' v='IT' />
+    <tag k='name' v='Bergamo' />
+    <tag k='name:es' v='Bérgamo' />
+    <tag k='name:fr' v='Bergame' />
+    <tag k='name:it' v='Bergamo' />
+    <tag k='name:pt' v='Bérgamo' />
+    <tag k='name:ru' v='Бергамо' />
+    <tag k='name:zh' v='贝尔加莫' />
+    <tag k='old_name:de' v='Welsch-Bergen' />
+    <tag k='phone' v='+39 035 399111' />
+    <tag k='place' v='city' />
+    <tag k='population' v='113143' />
+    <tag k='ref' v='BG' />
+    <tag k='ref:ISTAT' v='016024' />
+    <tag k='source' v='geodati.gfoss.it' />
+    <tag k='website' v='http://www.comune.bergamo.it/' />
+    <tag k='wikipedia' v='it:Bergamo' />
+  </node>
+</osm>
