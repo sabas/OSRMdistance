@@ -23,7 +23,12 @@ foreach ($f->children() as $elm)
 {
 if ($elm->getName()!="node") continue;
 $attr=$elm->attributes();
-$result_file[]=[$attr["id"],$attr["lat"],$attr["lon"]];
+$name=$elm->xpath("tag[@k='name']");
+$node='';
+if(count($name)==0) $node=$attr["id"];
+else
+$node=$name[0]["v"];
+$result_file[]=[$node,$attr["lat"],$attr["lon"]];
 }
 
 if(php_sapi_name()=="cli")
