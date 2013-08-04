@@ -90,4 +90,21 @@ function csvDump($arr)
     }	
     return 	$tmp;
 }
+
+/* from http://www.php.net/manual/en/function.time.php#107092 */
+function time_diff_conv($start, $s) {
+    $t = array( //suffixes
+        'd' => 86400,
+        'h' => 3600,
+        'm' => 60,
+    );
+    $s = abs($s - $start);
+    $string='';
+    foreach($t as $key => &$val) {
+        $$key = floor($s/$val);
+        $s -= ($$key*$val);
+        $string .= ($$key==0) ? '' : $$key . "$key ";
+    }
+    return $string . $s. 's';
+}
 ?>
