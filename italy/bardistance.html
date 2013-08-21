@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Grafico distanze</title>
+<style type="text/css">
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 960px;
+  margin: auto;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+
+.bar:hover {
+  fill: lightblue;
+  cursor: pointer;
+}
+
+.x.axis path {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 1em;
+  right: 10px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#license {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 8pt;
+  text-align: center;
+}
+</style>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+</head>
+<body>
+<h2 id="title"></h2>
+<label><input type="checkbox"> A-Z</label>
+
+<script type="text/javascript">
+/*
+ * CC-BY Daniele Forsi <dforsi at gmail dot com> 19/08/2013
+ * inspired by various tutorials and examples, thank you guys!
+ */
+
+var margin = {top: 20, right: 20, bottom: 30, left: 60},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .25, 1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(function(d) { return d + "km"; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var dsv = d3.dsv(";", "text/csv");
+dsv("capoluoghidistance.csv", function(d) {
+  d.distance = +d.distance / 1000;
+  d.time = +d.time / 60;
+  return d;
+}, function(error, unfiltereddata) {
+
+  function update(value) {
+    if (value == undefined)
+      value = d3.select("#title")[0][0].__data__;
+    d3.select("#title").data([value]).html(function (d) { return "Distanza da " + d + " a..."; });
+
+    var data = unfiltereddata
+      .filter(function (d) { return d.from == value });
+
+    var checked = d3.select("input")[0][0].checked;
+
+    // Copy-on-write since tweens are evaluated after a delay.
+    var x0 = x.domain(data
+      .sort(checked
+        ? function(a, b) { return d3.ascending(a.to, b.to); }
+        : function(a, b) { return b.distance - a.distance; })
+      .map(function(d) { return d.to; }))
+      .copy();
+
+    var transition = svg.transition().duration(750),
+        delay = function(d, i) { return i * 50; };
+
+    transition.select(".x.axis")
+        .call(xAxis)
+      .selectAll("g")
+        .delay(delay);
+
+    // DATA JOIN
+    // Join new data with old elements, if any.
+    var bar = svg.selectAll("rect")
+      .data(data, function(d) { return d.to; });
+
+    // UPDATE
+    // Update old elements as needed.
+    //bar.attr("class", "update");
+
+    // ENTER
+    // Create new elements as needed.
+    bar
+      .enter()
+      .append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.to); })
+        .attr("width", x.rangeBand())
+        .attr("y", height)
+        .attr("height", 0)
+        .on("click", function(d) { update(d.to); })
+      .append("title");
+
+    // ENTER + UPDATE
+    // Appending to the enter selection expands the update selection to include
+    // entering elements; so, operations on the update selection after appending to
+    // the enter selection will apply to both entering and updating nodes.
+    bar
+      .transition()
+      .duration(750)
+        .attr("x", function(d) { return x(d.to); })
+        .attr("y", function(d) { return y(d.distance); })
+        .attr("height", function(d) { return height - y(d.distance); });
+
+    bar
+      .select("title")
+      .text(function(d) { return d.from + "-" + d.to + ": " + d3.round(d.distance) + "km"; });
+
+    // EXIT
+    // Remove old elements as needed.
+    bar
+      .exit()
+      .remove();
+  }
+
+  x.domain(unfiltereddata.map(function(d) { return d.to; }));
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("x", "1em")
+      .text("città");
+
+  y.domain([0, d3.max(unfiltereddata, function(d) { return d.distance; })]);
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("distanza");
+
+  d3.select("body")
+    .append("p")
+      .text("Fare clic sul grafico per cambiare la città di partenza.")
+      .style("text-align", "center");
+
+  update("Roma");
+  d3.select("input").on("change", update);
+});
+
+</script>
+<div id="license">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/" title="This work is licensed under a Creative Commons Attribution 3.0 Unported License."><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+<br>Daniele Forsi
+</div>
+</body>
+</html>
