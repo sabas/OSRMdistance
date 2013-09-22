@@ -17,13 +17,13 @@
 	<h1>Italy Provinces Distance Table</h1>
 	<p>Distances calculated between administrative centers of each province, expressed in kilometers. To see the estimated time switch fields "Distance" and "Time" in the pivot table</p>
 	<p>Data: <a href="http://download.geofabrik.de/europe.html">Geofabrik extract</a> of </a>03/08/2013</p>
-	<p><a href="regionieprovince.csv">Source csv</a> and <a href="province_distance.csv">output csv</a>. <a href="regionieprovince.osm">OSM Extract</a></p>
+	<p><a href="source/regionieprovince.csv">Source csv</a> and <a href="csv/province_distance.csv">output csv</a>. <a href="source/regionieprovince.osm">OSM Extract</a></p>
         <div id="output" style="margin: 30px;"></div>
         <script type="text/javascript">
             $(function(){
                 var derivers = $.pivotUtilities.derivers;
 
-                $.getJSON("province_distance.csv.json", function(mps) {
+                $.getJSON("json/province_distance.csv.json", function(mps) {
                     $("#output").pivotUI(mps, {
                         derivedAttributes: {
                             "Distance": function(mp) {

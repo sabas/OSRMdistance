@@ -96,7 +96,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var dsv = d3.dsv(";", "text/csv");
-dsv("capoluoghidistance.csv", function(d) {
+dsv("csv/capoluoghidistance.csv", function(d) {
   d.distance = +d.distance / 1000;
   d.time = +d.time / 60;
   return d;

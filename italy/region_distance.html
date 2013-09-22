@@ -17,13 +17,13 @@
 	<h1>Italy Regions Distance Table</h1>
 	<p>Distances calculated between administrative centers of each region, expressed in kilometers. To see the estimated time switch fields "Distance" and "Time" in the pivot table</p>
 	<p>Data: <a href="http://download.geofabrik.de/europe.html">Geofabrik extract</a> of </a>03/08/2013</p>
-	<p><a href="capoluoghiregione.csv">Source csv</a> and <a href="capoluoghidistance.csv">output csv</a>
+	<p><a href="source/capoluoghiregione.csv">Source csv</a> and <a href="capoluoghidistance.csv">output csv</a>
         <div id="output" style="margin: 30px;"></div>
         <script type="text/javascript">
             $(function(){
                 var derivers = $.pivotUtilities.derivers;
 
-                $.getJSON("capoluoghidistance.csv.json", function(mps) {
+                $.getJSON("json/capoluoghidistance.csv.json", function(mps) {
                     $("#output").pivotUI(mps, {
                         derivedAttributes: {
                             "Distance": function(mp) {
