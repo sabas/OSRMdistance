@@ -44,7 +44,7 @@ ln -s ../profiles/car.lua profile.lua
 (on an Intel i5 roughly 30 sec per 15 MB file)
 
 ```
-./osrm-prepare sardegna.osrm sardegna.osrm.restrictions
+./osrm-prepare sardegna.osrm
 ```
 (50 sec)
 
