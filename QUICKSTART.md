@@ -32,6 +32,12 @@ make -j 2
 
 QUICKSTART
 
+Before processing add a symbolic link to the routing profile
+
+```
+ln -s ../profiles/car.lua profile.lua
+```
+
 ```
 ./osrm-extract sardegna.osm.pbf
 ```
