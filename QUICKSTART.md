@@ -15,7 +15,8 @@ sudo apt-get install build-essential git cmake pkg-config libprotoc-dev libproto
 protobuf-compiler libprotobuf-dev libosmpbf-dev libpng12-dev \
 libbz2-dev libstxxl-dev libstxxl-doc libstxxl1 libxml2-dev \
 libzip-dev libboost-thread-dev libboost-system-dev libboost-regex-dev \
-libboost-filesystem-dev lua5.1 liblua5.1-0-dev libluabind-dev
+libboost-filesystem-dev lua5.1 liblua5.1-0-dev libluabind-dev \
+libboost-iostreams-dev libboost-program-options-dev
 ```
 
 Then compile issuing following commands one at a time (make -j 2 means you'll compile using 2 cores)
