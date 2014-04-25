@@ -10,14 +10,13 @@ append("from;to;status;distance;time",$out);
  */
 for ($i=0;$i<$size;$i++)
 {
-	$rows=array();
 	for ($j=0;$j<$size;$j++)
 	{
 	if ($i==$j) continue;
 	$arrres= request($csv[$i]["node"],$csv[$i]["lat"],$csv[$i]["lon"],$csv[$j]["node"],$csv[$j]["lat"],$csv[$j]["lon"]);
-	$rows[]=$arrres;
+	$res=implode(";",$arrres);
+	append($res,$out);
 	}
-	append(csvDump($rows),$out);
 }
 
 	function append($message,$file='log.txt')

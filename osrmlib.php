@@ -12,8 +12,8 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 	$request=file_get_contents("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
 	$json=json_decode($request, true);
 		
-	$results["start"]=$node1;
-	$results["stop"]=$node2;
+	$results["start"]='"'.$node1.'"';
+	$results["stop"]='"'.$node2.'"';
 		
 		if ($json["status"]!=0) 
 		{

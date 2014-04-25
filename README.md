@@ -39,6 +39,12 @@ Via command line, pass the input name as first argument and output name ad secon
 php osrmdistance.php in.csv out.csv
 ```
 
+The singlelog version appends each result separately (slower)
+
+```
+php osrmdistance_singlelog.php in.csv out.csv
+```
+
 osrmsinglepoint.php accepts a third parameter, formed as a row of the input csv, and calculates distance between the node described by this third input and those in the csv source.
 
 ```
