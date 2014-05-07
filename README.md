@@ -51,6 +51,12 @@ osrmsinglepoint.php accepts a third parameter, formed as a row of the input csv,
 php osrmsinglepoint.php in.csv out.csv "node;lat;lon"
 ```
 
+osrmdistance_list.php accepts a csv containing a subset of combinations (node ids).
+
+```
+php osrmsinglepoint.php in.csv list.csv out.csv
+```
+
 osrmnearest.php tries to transform the source csv to the nearest points in the routing graph.
 
 ```
