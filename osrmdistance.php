@@ -3,7 +3,7 @@ include ('osrmlib.php');
 
 include ('input.php');
 
-append("from;to;status;distance;time",$out);
+append("from;to;status;distance;time\n",$out);
 
 $startTime=microtime(TRUE);
 
