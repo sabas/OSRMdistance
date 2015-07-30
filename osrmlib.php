@@ -1,4 +1,7 @@
 <?php
+
+$counter=0;
+
 function attachDownload($fname,$file)
 {
 header('Content-disposition: attachment; filename='.$fname);
@@ -8,10 +11,19 @@ echo csvDump($file);
 
 function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 {
+	global $counter;
+	
+	$counter++;
+	if(($counter % 10000) == 0) echo "Done ".$counter."\n";
+
 	$results=array();
+	//connection refused when no osrm is active
 	$request=file_get_contents("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
 	$json=json_decode($request, true);
-		
+
+if(count($json) == 0){
+die("Some coordinates are invalid: ".$node1." (".$lat1.",".$lon1.") - ".$node2." (".$lat2.",".$lon2.")");
+}
 	$results["start"]='"'.$node1.'"';
 	$results["stop"]='"'.$node2.'"';
 		
