@@ -8,63 +8,62 @@ Checkout demo results on http://sabas.github.io/OSRMdistance/
 Usage
 -----
 
-See QUICKSTART.md for brief notes on compilation and configuration of OSRM server, which is required to be running before launching the script.
+See QUICKSTART.md for brief notes on compilation and configuration of OSRM server.
 
-Input must be a csv in the format (first row is the header)
+Input must be a csv with this header included
 
 ```
 node;lat;lon
 ```
 
-Output is a csv in the format (included in first row)
+Output is a csv in the format
 
 ```
 from;to;status;distance;time
 ```
 
-Script can be called both via browser and via command line. 
-Obviously it's assumed you have OSRM up and running on localhost:5000 (DON'T USE project-osrm API, IT'S FORBIDDEN! Compiling OSRM, at least onto a Debian-based distro, it's straightforward)
+Script must be executed via command line while osrm-routed is running (assumed at localhost:5000).
 
-Via browser accepts two GET parameters:
- * in: the csv in input (place it in the same folder)
- * out: csv name for the output
- 
-```
-localhost/osrmdistance.php?in=in.csv&out=out.csv
-```
 
-Via command line, pass the input name as first argument and output name ad second.
+OSRMdistance: pass the input file name as first argument and the output file name as second.
 
 ```
-php osrmdistance.php in.csv out.csv
+php OSRMdistance.php in.csv out.csv
 ```
 
-The singlelog version appends each result separately (slower)
+OSRMsinglepoint.php accepts additional parameters: after input and output file, write "FROM" or "TO" then a node string in the input format. The computation takes all the nodes in input file and a single node: you choose as the third parameter FROM if the computation is from the node to the others,  TO if the computation is from the others to the node.
 
 ```
-php osrmdistance_singlelog.php in.csv out.csv
+php osrmsinglepoint.php in.csv out.csv FROM "node;lat;lon"
 ```
 
-osrmsinglepoint.php accepts a third parameter, formed as a row of the input csv, and calculates distance between the node described by this third input and those in the csv source.
+OSRMnearest.php tries to transform the source csv to the nearest points in the routing graph.
 
 ```
-php osrmsinglepoint.php in.csv out.csv "node;lat;lon"
+php OSRMnearest.php in.csv out.csv
 ```
 
-osrmdistance_list.php accepts a csv containing a subset of combinations (node ids).
+Input file
+-------
+
+The ```node``` column is a simple label: so it could be a number or a string.
+
+OSRMextractData.php takes an osm file (created by JOSM for example) and extracts the triples for each node in the file
 
 ```
-php osrmsinglepoint.php in.csv list.csv out.csv
+php OSRMextractData.php in.osm out.csv
 ```
 
-osrmnearest.php tries to transform the source csv to the nearest points in the routing graph.
+Example: we need to compute a distance table between administrative centres in a region, we can use Overpass Turbo and this query
 
 ```
-php osrmnearest.php in.csv out.csv
+[out:csv("name",::lat,::lon;true)][timeout:30];
+{{geocodeArea:Sardinia}}->.searchArea;
+(rel(area.searchArea)->.relations);
+(node(r.relations:"admin_centre"));
+out meta;
 ```
 
-extractData.php takes an osm file and extracts the triples for each node in the file (for instance you can extract a set of nodes via overpass-turbo, load the query in JOSM and from there save the osm file)
+In the resulting file we replace the tabs with semicolons, and we add the header in the first row.
 
-```
-php extractData.php in.osm out.csv
-```
+

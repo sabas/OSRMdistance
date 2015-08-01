@@ -1,13 +1,10 @@
 <?php
 
-$counter=0;
+/*
+ * WRAPPER
+ */
 
-function attachDownload($fname,$file)
-{
-header('Content-disposition: attachment; filename='.$fname);
-header('Content-type: text/csv');
-echo csvDump($file);
-}
+$counter=0;
 
 function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 {
@@ -21,9 +18,9 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 	$request=file_get_contents("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
 	$json=json_decode($request, true);
 
-if(count($json) == 0){
-die("Some coordinates are invalid: ".$node1." (".$lat1.",".$lon1.") - ".$node2." (".$lat2.",".$lon2.")");
-}
+    if(count($json) == 0){
+        die("Some coordinates are invalid: ".$node1." (".$lat1.",".$lon1.") - ".$node2." (".$lat2.",".$lon2.")");
+    }
 	$results["start"]='"'.$node1.'"';
 	$results["stop"]='"'.$node2.'"';
 		
@@ -62,34 +59,30 @@ function nearest($lat,$lon)
 		}
 }
 
-function csvRead($file)
+/**
+* @link http://gist.github.com/385876
+*/
+function csv_to_array($filename='', $delimiter=';')
 {
-	if (($handle = fopen($file, "r")) !== FALSE) {
-		$k=0;
+    if(!file_exists($filename) || !is_readable($filename))
+        return FALSE;
 
-		while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
-			++$k;
-			
-			if ($k==1)
-			{
-				$i=-1;
-				foreach ($data as $cell)
-				{
-					$titles[++$i]=$cell;
-				}
-			continue;
-			}
-			
-			$i=-1;
-				foreach ($data as $cell)
-				{
-				$csv[$k-2][$titles[++$i]]=$cell;
-				}
-		}
-		fclose($handle);
-	}
-	return $csv;
+    $header = NULL;
+    $data = array();
+    if (($handle = fopen($filename, 'r')) !== FALSE)
+    {
+        while (($row = fgetcsv($handle, 1000, $delimiter)) !== FALSE)
+        {
+            if(!$header)
+                $header = $row;
+            else
+                $data[] = array_combine($header, $row);
+        }
+        fclose($handle);
+    }
+    return $data;
 }
+
 
 function csvDump($arr)
 {
@@ -103,20 +96,16 @@ function csvDump($arr)
     return 	$tmp;
 }
 
-/* from http://www.php.net/manual/en/function.time.php#107092 */
-function time_diff_conv($start, $s) {
-    $t = array( //suffixes
-        'd' => 86400,
-        'h' => 3600,
-        'm' => 60,
-    );
-    $s = abs($s - $start);
-    $string='';
-    foreach($t as $key => &$val) {
-        $$key = floor($s/$val);
-        $s -= ($$key*$val);
-        $string .= ($$key==0) ? '' : $$key . "$key ";
-    }
-    return $string . $s. 's';
+function append($message,$file='log.txt')
+{
+    writeFile($message,$file,$a);
+}
+
+function writeFile($message,$file='log.txt',$flag="w")
+{
+	$handle=fopen($file,$flag);
+	if (!$handle) echo ("File cannot be opened");
+	fwrite($handle, $message);
+	fclose($handle);
 }
 ?>
