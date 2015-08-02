@@ -29,20 +29,20 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 			$status=$json["status"];
 			$distance=0;
 			$time=0;
-            $geometry="";
+            $geom="";
 		}
 		else
 		{
 			$status="OK";
 			$distance=$json["route_summary"]["total_distance"];
 			$time=$json["route_summary"]["total_time"];
-            $geometry=$json["route_geometry"];
+            $geom=$json["route_geometry"];
 		}
 	
 	$results["status"]=$status;
 	$results["distance"]=$distance;
 	$results["time"]=$time;
-    if($geometry) $results["geometry"]=$geometry;
+    if($geometry) $results["geometry"]=$geom;
 	return $results;
 }
 
@@ -101,7 +101,7 @@ function csvDump($arr)
 
 function append($message,$file='log.txt')
 {
-    writeFile($message,$file,$a);
+    writeFile($message,$file,"a+");
 }
 
 function writeFile($message,$file='log.txt',$flag="w")

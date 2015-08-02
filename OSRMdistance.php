@@ -12,10 +12,9 @@ $out="dump.csv";
 
 $in=$argv[1];
 $out=$argv[2];
-if(isset($argv[3]) && ($argv[3]==TRUE || $argv[3]==FALSE))
+if(isset($argv[3]) $argv[3]=FALSE;
+
 $geometry=$argv[3];
-else
-$geometry=FALSE;
 
 $csv=csv_to_array($in);
 $size=count($csv);
