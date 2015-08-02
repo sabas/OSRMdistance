@@ -6,7 +6,7 @@
 
 $counter=0;
 
-function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
+function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 {
 	global $counter;
 	
@@ -29,17 +29,20 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2)
 			$status=$json["status"];
 			$distance=0;
 			$time=0;
+            $geometry="";
 		}
 		else
 		{
 			$status="OK";
 			$distance=$json["route_summary"]["total_distance"];
 			$time=$json["route_summary"]["total_time"];
+            $geometry=$json["route_geometry"];
 		}
 	
 	$results["status"]=$status;
 	$results["distance"]=$distance;
 	$results["time"]=$time;
+    if($geometry) $results["geometry"]=$geometry;
 	return $results;
 }
 

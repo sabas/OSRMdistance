@@ -25,10 +25,10 @@ from;to;status;distance;time
 Script must be executed via command line while osrm-routed is running (assumed at localhost:5000).
 
 
-OSRMdistance: pass the input file name as first argument and the output file name as second.
+OSRMdistance: pass the input file name as first argument and the output file name as second. Optionally pass TRUE as third parameter to save the route geometry as a column in the output
 
 ```
-php OSRMdistance.php in.csv out.csv
+php OSRMdistance.php in.csv out.csv (TRUE)
 ```
 
 OSRMsinglepoint.php accepts additional parameters: after input and output file, write "FROM" or "TO" then a node string in the input format. The computation takes all the nodes in input file and a single node: you choose as the third parameter FROM if the computation is from the node to the others,  TO if the computation is from the others to the node.
