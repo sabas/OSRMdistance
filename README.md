@@ -43,6 +43,11 @@ OSRMnearest.php tries to transform the source csv to the nearest points in the r
 php OSRMnearest.php in.csv out.csv
 ```
 
+OSRMlegs.php gets as input node couples (header must be node1;lat1;lon1;node2;lat2;lon2) and append the result
+```
+php OSRMlegs.php in.csv out.csv
+```
+
 Input file
 -------
 

@@ -1,5 +1,16 @@
 <?php
 
+function doCurl($url)
+{
+    $ch = curl_init();
+    curl_setopt($ch,CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $request= curl_exec($ch);
+    curl_close($ch);
+    return $request;
+}
+
 /*
  * WRAPPER
  */
@@ -15,7 +26,8 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 
 	$results=array();
 	//connection refused when no osrm is active
-	$request=file_get_contents("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
+    $request=doCurl("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
+
 	$json=json_decode($request, true);
 
     if(count($json) == 0){
@@ -48,7 +60,7 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 
 function nearest($lat,$lon)
 {
-	$request=file_get_contents("http://localhost:5000/nearest?loc=".$lat.",".$lon);
+	$request=doCurl("http://localhost:5000/nearest?loc=".$lat.",".$lon);
 	$json=json_decode($request, true);
 		if ($json["status"]!=0) 
 		{

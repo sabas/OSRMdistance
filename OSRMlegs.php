@@ -26,20 +26,16 @@ if($geometry)$header.=";geometry";
 append($header."\n",$out);
 
 /*
- * Distance and time between all points
+ * Distance and time between points
  */
 
+$rows=array();
 for ($i=0;$i<$size;$i++)
 {
-	$rows=array();
-	for ($j=0;$j<$size;$j++)
-	{
-	if ($i==$j) continue;
-	$arrres= request($csv[$i]["node"],$csv[$i]["lat"],$csv[$i]["lon"],$csv[$j]["node"],$csv[$j]["lat"],$csv[$j]["lon"],$geometry);
-	$rows[]=$arrres;
-	}
-	append(csvDump($rows),$out);
+	$arrres= request($csv[$i]["node1"],$csv[$i]["lat1"],$csv[$i]["lon1"],$csv[$i]["node2"],$csv[$i]["lat2"],$csv[$i]["lon2"],$geometry);
+    $rows[]=$arrres;
 }
+append(csvDump($rows),$out);
 
 /*
  * END

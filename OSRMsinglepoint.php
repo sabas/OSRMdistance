@@ -26,16 +26,16 @@ append("from;to;status;distance;time\n",$out);
 
 $node=explode(";",$node);
 
+$rows=array();
 for ($j=0;$j<$size;$j++)
 {
     if($fmto=="FROM")
 	$arrres= request($node[0],$node[1],$node[2],$csv[$j]["node"],$csv[$j]["lat"],$csv[$j]["lon"]);
     else
 	$arrres= request($csv[$j]["node"],$csv[$j]["lat"],$csv[$j]["lon"],$node[0],$node[1],$node[2]);
-
-	append(csvDump($arrres),$out);
+	$rows[]=$arrres;
 }
-
+append(csvDump($rows),$out);
 /*
  * END
  */
