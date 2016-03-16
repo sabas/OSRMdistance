@@ -36,7 +36,7 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 	$results["start"]='"'.$node1.'"';
 	$results["stop"]='"'.$node2.'"';
 		
-		if ($json["status"]!=0) 
+		if ($json["status"]!=200) 
 		{
 			$status=$json["status"];
 			$distance=0;
@@ -62,7 +62,8 @@ function nearest($lat,$lon)
 {
 	$request=doCurl("http://localhost:5000/nearest?loc=".$lat.",".$lon);
 	$json=json_decode($request, true);
-		if ($json["status"]!=0) 
+
+		if ($json["status"]!=200) 
 		{
 			$status=$json["status"];
             return [$lat,$lon];

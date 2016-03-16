@@ -1,4 +1,6 @@
 <?php
+require('osrmlib.php');
+
 if(php_sapi_name()!="cli") die("CLI only");
 
 /*
