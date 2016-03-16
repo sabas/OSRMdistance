@@ -37,7 +37,7 @@ Name the file as xxx.osm.pbf
 (on an Intel i5 roughly 30 sec per 15 MB file)
 
 ```
-./osrm-prepare sardegna.osrm
+./osrm-contract sardegna.osrm
 ```
 (50 sec)
 
