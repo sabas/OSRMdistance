@@ -124,4 +124,22 @@ function writeFile($message,$file='log.txt',$flag="w")
 	fwrite($handle, $message);
 	fclose($handle);
 }
+
+function haversine($lat1,$lon1,$lat2,$lon2)
+{
+    $R = 6372797.560856;
+
+    $dlat = deg2rad($lat2-$lat1);
+    $dlon = deg2rad($lon2-$lon1);
+
+	$lonh=sin($dlon*0.5);
+	$lonh*=$lonh;
+	
+	$lath=sin($dlat*0.5);
+	$lath*=$lath;
+	
+	$tmp= cos(deg2rad($lat1))*cos(deg2rad($lat2));
+
+    return 2*$R*asin(sqrt($lath+$tmp*$lonh));
+}
 ?>

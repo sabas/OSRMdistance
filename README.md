@@ -31,6 +31,12 @@ OSRMdistance: pass the input file name as first argument and the output file nam
 php OSRMdistance.php in.csv out.csv (TRUE)
 ```
 
+OSRMdistance_rectangle: a rectangular distance table where the first list is the starting point collection and the second is the ending point collection; the third parameter is the output file name. Optionally pass TRUE as fourth parameter to save the route geometry as a column in the output
+
+```
+php OSRMdistance_rectangle.php in.csv in2.csv out.csv (TRUE)
+```
+
 OSRMsinglepoint.php accepts additional parameters: after input and output file, write "FROM" or "TO" then a node string in the input format. The computation takes all the nodes in input file and a single node: you choose as the third parameter FROM if the computation is from the node to the others,  TO if the computation is from the others to the node.
 
 ```
@@ -41,6 +47,12 @@ OSRMnearest.php tries to transform the source csv to the nearest points in the r
 
 ```
 php OSRMnearest.php in.csv out.csv
+```
+
+difference.php gives an estimate on the nearest list: pass the original and the processed list and returns a list with the distance (with haversine formula.
+
+```
+php difference.php in.csv nearest.csv out.csv
 ```
 
 OSRMlegs.php gets as input node couples (header must be node1;lat1;lon1;node2;lat2;lon2) and append the result

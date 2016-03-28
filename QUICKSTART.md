@@ -41,9 +41,7 @@ Name the file as xxx.osm.pbf
 ```
 (50 sec)
 
-If you run through browser, remember to change the max_execution_time in php.ini if you're going to process long lists of locations.
-
-Launch the server in a seperate terminal 
+Launch the server in a separate terminal 
 
 ```
 ./osrm-routed sardegna.osrm
