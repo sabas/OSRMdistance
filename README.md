@@ -8,7 +8,8 @@ Checkout demo results on http://sabas.github.io/OSRMdistance/
 Usage
 -----
 
-See QUICKSTART.md for brief notes on compilation and configuration of OSRM server.
+Configure OSRM with the default instructions provided by its repository.
+The profile must be named profile.lua (this is the default).
 
 Input must be a csv with this header included
 
@@ -49,7 +50,7 @@ OSRMnearest.php tries to transform the source csv to the nearest points in the r
 php OSRMnearest.php in.csv out.csv
 ```
 
-difference.php gives an estimate on the nearest list: pass the original and the processed list and returns a list with the distance (with haversine formula.
+difference.php gives an estimate on the nearest list: pass the original and the processed list and returns a list with the distance (with haversine formula).
 
 ```
 php difference.php in.csv nearest.csv out.csv

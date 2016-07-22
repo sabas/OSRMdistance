@@ -26,7 +26,7 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 
 	$results=array();
 	//connection refused when no osrm is active
-    $request=doCurl("http://localhost:5000/viaroute?loc=".$lat1.",".$lon1."&loc=".$lat2.",".$lon2);
+    $request=doCurl("http://localhost:5000/route/v1/profile/".$lon1.",".$lat1.";".$lon2.",".$lat2);
 
 	$json=json_decode($request, true);
 
@@ -36,9 +36,9 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 	$results["start"]='"'.$node1.'"';
 	$results["stop"]='"'.$node2.'"';
 		
-		if ($json["status"]!=200) 
+		if ($json["code"]!="Ok") 
 		{
-			$status=$json["status"];
+			$status=$json["code"];
 			$distance=0;
 			$time=0;
             $geom="";
@@ -46,9 +46,9 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 		else
 		{
 			$status="OK";
-			$distance=$json["route_summary"]["total_distance"];
-			$time=$json["route_summary"]["total_time"];
-            $geom=$json["route_geometry"];
+			$distance=$json["routes"][0]["distance"];
+			$time=$json["routes"][0]["duration"];
+            $geom=$json["routes"][0]["geometry"];
 		}
 	
 	$results["status"]=$status;
@@ -60,10 +60,10 @@ function request($node1,$lat1,$lon1,$node2,$lat2,$lon2,$geometry=FALSE)
 
 function nearest($lat,$lon)
 {
-	$request=doCurl("http://localhost:5000/nearest?loc=".$lat.",".$lon);
+	$request=doCurl("http://localhost:5000/nearest/v1/profile/".$lon.",".$lat);
 	$json=json_decode($request, true);
 
-		if ($json["status"]!=200) 
+		if ($json["code"]!="Ok") 
 		{
 			$status=$json["status"];
             return [$lat,$lon];
@@ -71,7 +71,7 @@ function nearest($lat,$lon)
 		else
 		{
 			$status="OK";
-            return $json["mapped_coordinate"];
+            return $json["waypoints"][0]["location"];
 		}
 }
 
